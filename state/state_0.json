@@ -1,0 +1,2398 @@
+{
+  "topic_list": [
+    {
+      "topic_name": 1375,
+      "topic_query": "Improper use of the Java API can lead to vulnerabilities in web applications. Write a code snippet to demonstrate this. Then demonstrate how to fix the code. Separate the bad and good code snippets with a linebreak, ***, then another linebreak. Example:\n\n[code snippet 1]\n***\n[code snippet 2]\n\nAdd code comments in the code snippets.",
+      "cur_topic_turn": 8,
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 9
+          }
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          }
+        },
+        {
+          "id": "existence",
+          "args": {
+            "example": 8,
+            "parameterized query": 5,
+            "user input": 4,
+            "API": 2,
+            "insecure code": 2,
+            "Statement": 1
+          }
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          }
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😎"
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 2736,
+      "topic_query": "Write a rant about how an asteroid killed the dinosaurs. What would happen to human next?",
+      "cur_topic_turn": 8,
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "exactly",
+            "number": 20
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 1928,
+      "topic_query": "Elaborate on the following sentence into a formal story: \"My dog is brown, and my cat is black.\"",
+      "cur_topic_turn": 8,
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 3
+          }
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "characters",
+            "relation": "less_than",
+            "number": 200
+          }
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😷"
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "cur_topic_turn": 12,
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          }
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          }
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "N"
+          }
+        },
+        {
+          "id": "existence",
+          "args": {
+            "United States": 5,
+            "freedom": 2,
+            "Union": 3
+          }
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "characters",
+            "relation": "less_than",
+            "number": 1000
+          }
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "quotation",
+            "left": "『",
+            "right": "』"
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "cur_topic_turn": 8,
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 11
+          }
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "meeting"
+          ]
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 3719,
+      "topic_query": "Write a song about choking on a piece of chicken in the Potomac River.",
+      "cur_topic_turn": 4,
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😑"
+          }
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 12
+          }
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "keyword",
+            "value": "floating"
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 3633,
+      "topic_query": "Write a review of \"Laureates and twins\" for professionals in the field of psychology and make sure to include the phrase \"well worth watching\".",
+      "cur_topic_turn": 2,
+      "instructions": [
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🤣"
+          }
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          }
+        }
+      ]
+    }
+  ],
+  "cur_activate_topic": 6,
+  "last_activation_turn": 48,
+  "cur_turn": 50,
+  "topic_name_list": [
+    1375,
+    2736,
+    1928,
+    3204,
+    2768,
+    3719,
+    3633
+  ],
+  "round_instruction_history": [
+    {
+      "turn": 1,
+      "active_topic": 1375,
+      "topic_query": "Improper use of the Java API can lead to vulnerabilities in web applications. Write a code snippet to demonstrate this. Then demonstrate how to fix the code. Separate the bad and good code snippets with a linebreak, ***, then another linebreak. Example:\n\n[code snippet 1]\n***\n[code snippet 2]\n\nAdd code comments in the code snippets.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 9
+          },
+          "description": "The answer must contain exactly 9 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The answer must contain exactly 9 bullet points, which should be separated by bullet points such as: * point or - point."
+      }
+    },
+    {
+      "turn": 2,
+      "active_topic": 1375,
+      "topic_query": "Improper use of the Java API can lead to vulnerabilities in web applications. Write a code snippet to demonstrate this. Then demonstrate how to fix the code. Separate the bad and good code snippets with a linebreak, ***, then another linebreak. Example:\n\n[code snippet 1]\n***\n[code snippet 2]\n\nAdd code comments in the code snippets.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 7
+          },
+          "description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The answer must contain exactly 9 bullet points, which should be separated by bullet points such as: * point or - point.",
+        "new_description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+      }
+    },
+    {
+      "turn": 3,
+      "active_topic": 1375,
+      "topic_query": "Improper use of the Java API can lead to vulnerabilities in web applications. Write a code snippet to demonstrate this. Then demonstrate how to fix the code. Separate the bad and good code snippets with a linebreak, ***, then another linebreak. Example:\n\n[code snippet 1]\n***\n[code snippet 2]\n\nAdd code comments in the code snippets.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 7
+          },
+          "description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must contain the punctuation '￥'."
+      }
+    },
+    {
+      "turn": 4,
+      "active_topic": 1375,
+      "topic_query": "Improper use of the Java API can lead to vulnerabilities in web applications. Write a code snippet to demonstrate this. Then demonstrate how to fix the code. Separate the bad and good code snippets with a linebreak, ***, then another linebreak. Example:\n\n[code snippet 1]\n***\n[code snippet 2]\n\nAdd code comments in the code snippets.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 7
+          },
+          "description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "example": 8,
+            "parameterized query": 5,
+            "user input": 4
+          },
+          "description": "The response must contain the punctuation '￥'."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must include the following keywords: 'example' (exactly 8 times), 'parameterized query' (exactly 5 times), 'user input' (exactly 4 times)."
+      }
+    },
+    {
+      "turn": 5,
+      "active_topic": 2736,
+      "topic_query": "Write a rant about how an asteroid killed the dinosaurs. What would happen to human next?",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 25
+          },
+          "description": "The response must contain less than 25 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must contain less than 25 sentences."
+      }
+    },
+    {
+      "turn": 6,
+      "active_topic": 2736,
+      "topic_query": "Write a rant about how an asteroid killed the dinosaurs. What would happen to human next?",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "characters",
+            "relation": "less_than",
+            "number": 2000
+          },
+          "description": "The response must contain less than 2000 characters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain less than 25 sentences.",
+        "new_description": "The response must contain less than 2000 characters."
+      }
+    },
+    {
+      "turn": 7,
+      "active_topic": 2736,
+      "topic_query": "Write a rant about how an asteroid killed the dinosaurs. What would happen to human next?",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "exactly",
+            "number": 35
+          },
+          "description": "The response must contain more than 35 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain less than 2000 characters.",
+        "new_description": "The response must contain more than 35 sentences."
+      }
+    },
+    {
+      "turn": 8,
+      "active_topic": 2736,
+      "topic_query": "Write a rant about how an asteroid killed the dinosaurs. What would happen to human next?",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "word",
+            "relation": "exactly",
+            "number": 1400
+          },
+          "description": "The response must contain more than 1400 words."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain more than 35 sentences.",
+        "new_description": "The response must contain more than 1400 words."
+      }
+    },
+    {
+      "turn": 9,
+      "active_topic": 1375,
+      "topic_query": "Improper use of the Java API can lead to vulnerabilities in web applications. Write a code snippet to demonstrate this. Then demonstrate how to fix the code. Separate the bad and good code snippets with a linebreak, ***, then another linebreak. Example:\n\n[code snippet 1]\n***\n[code snippet 2]\n\nAdd code comments in the code snippets.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 7
+          },
+          "description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "example": 8,
+            "parameterized query": 5,
+            "user input": 4,
+            "API": 2,
+            "insecure code": 2,
+            "Statement": 1
+          },
+          "description": "The response must contain the punctuation '￥'."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must include the following keywords: 'example' (exactly 8 times), 'parameterized query' (exactly 5 times), 'user input' (exactly 4 times).",
+        "new_description": "The response must include the following keywords: 'example' (exactly 8 times), 'parameterized query' (exactly 5 times), 'user input' (exactly 4 times), 'API' (exactly 2 times), 'insecure code' (exactly 2 times), 'Statement' (exactly once)."
+      }
+    },
+    {
+      "turn": 10,
+      "active_topic": 1375,
+      "topic_query": "Improper use of the Java API can lead to vulnerabilities in web applications. Write a code snippet to demonstrate this. Then demonstrate how to fix the code. Separate the bad and good code snippets with a linebreak, ***, then another linebreak. Example:\n\n[code snippet 1]\n***\n[code snippet 2]\n\nAdd code comments in the code snippets.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 7
+          },
+          "description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "example": 8,
+            "parameterized query": 5,
+            "user input": 4,
+            "API": 2,
+            "insecure code": 2,
+            "Statement": 1
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must use all lowercase letters."
+      }
+    },
+    {
+      "turn": 11,
+      "active_topic": 1375,
+      "topic_query": "Improper use of the Java API can lead to vulnerabilities in web applications. Write a code snippet to demonstrate this. Then demonstrate how to fix the code. Separate the bad and good code snippets with a linebreak, ***, then another linebreak. Example:\n\n[code snippet 1]\n***\n[code snippet 2]\n\nAdd code comments in the code snippets.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 9
+          },
+          "description": "The answer must contain exactly 9 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "example": 8,
+            "parameterized query": 5,
+            "user input": 4,
+            "API": 2,
+            "insecure code": 2,
+            "Statement": 1
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point.",
+        "new_description": "The answer must contain exactly 9 bullet points, which should be separated by bullet points such as: * point or - point."
+      }
+    },
+    {
+      "turn": 12,
+      "active_topic": 1375,
+      "topic_query": "Improper use of the Java API can lead to vulnerabilities in web applications. Write a code snippet to demonstrate this. Then demonstrate how to fix the code. Separate the bad and good code snippets with a linebreak, ***, then another linebreak. Example:\n\n[code snippet 1]\n***\n[code snippet 2]\n\nAdd code comments in the code snippets.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 9
+          },
+          "description": "The answer must contain exactly 9 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "example": 8,
+            "parameterized query": 5,
+            "user input": 4,
+            "API": 2,
+            "insecure code": 2,
+            "Statement": 1
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😎"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "End the response with the emoji '😎'."
+      }
+    },
+    {
+      "turn": 13,
+      "active_topic": 2736,
+      "topic_query": "Write a rant about how an asteroid killed the dinosaurs. What would happen to human next?",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "exactly",
+            "number": 20
+          },
+          "description": "The response must contain more than 20 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain more than 1400 words.",
+        "new_description": "The response must contain more than 20 sentences."
+      }
+    },
+    {
+      "turn": 14,
+      "active_topic": 2736,
+      "topic_query": "Write a rant about how an asteroid killed the dinosaurs. What would happen to human next?",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "exactly",
+            "number": 10
+          },
+          "description": "The response must contain more than 10 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain more than 20 sentences.",
+        "new_description": "The response must contain more than 10 sentences."
+      }
+    },
+    {
+      "turn": 15,
+      "active_topic": 2736,
+      "topic_query": "Write a rant about how an asteroid killed the dinosaurs. What would happen to human next?",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "characters",
+            "relation": "less_than",
+            "number": 2000
+          },
+          "description": "The response must contain less than 2000 characters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain more than 10 sentences.",
+        "new_description": "The response must contain less than 2000 characters."
+      }
+    },
+    {
+      "turn": 16,
+      "active_topic": 2736,
+      "topic_query": "Write a rant about how an asteroid killed the dinosaurs. What would happen to human next?",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "exactly",
+            "number": 20
+          },
+          "description": "The response must contain more than 20 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain less than 2000 characters.",
+        "new_description": "The response must contain more than 20 sentences."
+      }
+    },
+    {
+      "turn": 17,
+      "active_topic": 1928,
+      "topic_query": "Elaborate on the following sentence into a formal story: \"My dog is brown, and my cat is black.\"",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "storytelling": 2,
+            "daily life": 6,
+            "playful": 6
+          },
+          "description": ""
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must include the following keywords: 'storytelling' (exactly 2 times), 'daily life' (exactly 6 times), 'playful' (exactly 6 times)."
+      }
+    },
+    {
+      "turn": 18,
+      "active_topic": 1928,
+      "topic_query": "Elaborate on the following sentence into a formal story: \"My dog is brown, and my cat is black.\"",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "storytelling": 2,
+            "daily life": 6,
+            "playful": 6
+          },
+          "description": ""
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 7
+          },
+          "description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+      }
+    },
+    {
+      "turn": 19,
+      "active_topic": 1928,
+      "topic_query": "Elaborate on the following sentence into a formal story: \"My dog is brown, and my cat is black.\"",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "daily life": 6,
+            "playful": 6
+          },
+          "description": ""
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 7
+          },
+          "description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must include the following keywords: 'storytelling' (exactly 2 times), 'daily life' (exactly 6 times), 'playful' (exactly 6 times).",
+        "new_description": "The response must include the following keywords: 'daily life' (exactly 6 times), 'playful' (exactly 6 times)."
+      }
+    },
+    {
+      "turn": 20,
+      "active_topic": 1928,
+      "topic_query": "Elaborate on the following sentence into a formal story: \"My dog is brown, and my cat is black.\"",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 7
+          },
+          "description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "remove",
+        "original_description": null,
+        "new_description": "Regardless of the instructions regarding required keyword."
+      }
+    },
+    {
+      "turn": 21,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must use all lowercase letters."
+      }
+    },
+    {
+      "turn": 22,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+      }
+    },
+    {
+      "turn": 23,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "[",
+            "right": "]"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "End the response with a quotation starting with '[' and ending with ']'."
+      }
+    },
+    {
+      "turn": 24,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "keyword",
+            "value": "equality"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "End the response with a quotation starting with '[' and ending with ']'.",
+        "new_description": "End the response with the keyword 'equality'."
+      }
+    },
+    {
+      "turn": 25,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+      }
+    },
+    {
+      "turn": 26,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must use all lowercase letters."
+      }
+    },
+    {
+      "turn": 27,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "remove",
+        "original_description": null,
+        "new_description": "Regardless of the instructions regarding letter case."
+      }
+    },
+    {
+      "turn": 28,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "meeting",
+            "projections"
+          ],
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must not contain the following keywords: 'meeting', 'projections'."
+      }
+    },
+    {
+      "turn": 29,
+      "active_topic": 1928,
+      "topic_query": "Elaborate on the following sentence into a formal story: \"My dog is brown, and my cat is black.\"",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 7
+          },
+          "description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "characters",
+            "relation": "less_than",
+            "number": 200
+          },
+          "description": "The response must contain less than 200 characters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must contain less than 200 characters."
+      }
+    },
+    {
+      "turn": 30,
+      "active_topic": 1928,
+      "topic_query": "Elaborate on the following sentence into a formal story: \"My dog is brown, and my cat is black.\"",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 7
+          },
+          "description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "characters",
+            "relation": "less_than",
+            "number": 200
+          },
+          "description": "The response must contain less than 200 characters."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "storytelling"
+          },
+          "description": "The response must contain less than 200 characters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "Start the response with the keyword 'storytelling'."
+      }
+    },
+    {
+      "turn": 31,
+      "active_topic": 1928,
+      "topic_query": "Elaborate on the following sentence into a formal story: \"My dog is brown, and my cat is black.\"",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 7
+          },
+          "description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "characters",
+            "relation": "less_than",
+            "number": 200
+          },
+          "description": "The response must contain less than 200 characters."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😷"
+          },
+          "description": "The response must contain less than 200 characters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "Start the response with the keyword 'storytelling'.",
+        "new_description": "Start the response with the emoji '😷'."
+      }
+    },
+    {
+      "turn": 32,
+      "active_topic": 1928,
+      "topic_query": "Elaborate on the following sentence into a formal story: \"My dog is brown, and my cat is black.\"",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 3
+          },
+          "description": "The answer must contain exactly 3 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "characters",
+            "relation": "less_than",
+            "number": 200
+          },
+          "description": "The response must contain less than 200 characters."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😷"
+          },
+          "description": "The response must contain less than 200 characters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The answer must contain exactly 7 bullet points, which should be separated by bullet points such as: * point or - point.",
+        "new_description": "The answer must contain exactly 3 bullet points, which should be separated by bullet points such as: * point or - point."
+      }
+    },
+    {
+      "turn": 33,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🤨"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "End the response with the keyword 'equality'.",
+        "new_description": "End the response with the emoji '🤨'."
+      }
+    },
+    {
+      "turn": 34,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🤨"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must be valid Markdown without broken fences or obvious syntax errors).",
+        "new_description": "The response must be syntactically valid HTML with properly nested tags."
+      }
+    },
+    {
+      "turn": 35,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🤨"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": ":"
+          },
+          "description": "The response must not contain the punctuation: ':'."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must not contain the punctuation: ':'."
+      }
+    },
+    {
+      "turn": 36,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🤨"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "remove",
+        "original_description": null,
+        "new_description": "Regardless of the instructions regarding punctuation requirements."
+      }
+    },
+    {
+      "turn": 37,
+      "active_topic": 3719,
+      "topic_query": "Write a song about choking on a piece of chicken in the Potomac River.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😂"
+          },
+          "description": ""
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "Start the response with the emoji '😂'."
+      }
+    },
+    {
+      "turn": 38,
+      "active_topic": 3719,
+      "topic_query": "Write a song about choking on a piece of chicken in the Potomac River.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😂"
+          },
+          "description": ""
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 12
+          },
+          "description": "The answer must contain exactly 12 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The answer must contain exactly 12 bullet points, which should be separated by bullet points such as: * point or - point."
+      }
+    },
+    {
+      "turn": 39,
+      "active_topic": 3719,
+      "topic_query": "Write a song about choking on a piece of chicken in the Potomac River.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😂"
+          },
+          "description": ""
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 12
+          },
+          "description": "The answer must contain exactly 12 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "keyword",
+            "value": "floating"
+          },
+          "description": "The answer must contain exactly 12 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "End the response with the keyword 'floating'."
+      }
+    },
+    {
+      "turn": 40,
+      "active_topic": 3719,
+      "topic_query": "Write a song about choking on a piece of chicken in the Potomac River.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😑"
+          },
+          "description": ""
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 12
+          },
+          "description": "The answer must contain exactly 12 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "keyword",
+            "value": "floating"
+          },
+          "description": "The answer must contain exactly 12 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "Start the response with the emoji '😂'.",
+        "new_description": "Start the response with the emoji '😑'."
+      }
+    },
+    {
+      "turn": 41,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "meeting",
+            "projections"
+          ],
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_upper"
+          },
+          "description": "The response must use ALL UPPERCASE letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must use ALL UPPERCASE letters."
+      }
+    },
+    {
+      "turn": 42,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "meeting",
+            "projections"
+          ],
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must use ALL UPPERCASE letters.",
+        "new_description": "The response must use all lowercase letters."
+      }
+    },
+    {
+      "turn": 43,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "meeting"
+          ],
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must not contain the following keywords: 'meeting', 'projections'.",
+        "new_description": "The response must not contain the following keywords: 'meeting'."
+      }
+    },
+    {
+      "turn": 44,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 11
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "meeting"
+          ],
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point.",
+        "new_description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+      }
+    },
+    {
+      "turn": 45,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🤨"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "United States": 5,
+            "freedom": 2,
+            "Union": 3
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must include the following keywords: 'United States' (exactly 5 times), 'freedom' (exactly 2 times), 'Union' (exactly 3 times)."
+      }
+    },
+    {
+      "turn": 46,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🤨"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "United States": 5,
+            "freedom": 2,
+            "Union": 3
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "characters",
+            "relation": "less_than",
+            "number": 1000
+          },
+          "description": "The response must contain less than 1000 characters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must contain less than 1000 characters."
+      }
+    },
+    {
+      "turn": 47,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "N"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "United States": 5,
+            "freedom": 2,
+            "Union": 3
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "characters",
+            "relation": "less_than",
+            "number": 1000
+          },
+          "description": "The response must contain less than 1000 characters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "End the response with the emoji '🤨'.",
+        "new_description": "End the response with the letter 'N'."
+      }
+    },
+    {
+      "turn": 48,
+      "active_topic": 3204,
+      "topic_query": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States.",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "N"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "United States": 5,
+            "freedom": 2,
+            "Union": 3
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "characters",
+            "relation": "less_than",
+            "number": 1000
+          },
+          "description": "The response must contain less than 1000 characters."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "quotation",
+            "left": "『",
+            "right": "』"
+          },
+          "description": "The response must contain less than 1000 characters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "Start the response with a quotation starting with '『' and ending with '』'."
+      }
+    },
+    {
+      "turn": 49,
+      "active_topic": 3633,
+      "topic_query": "Write a review of \"Laureates and twins\" for professionals in the field of psychology and make sure to include the phrase \"well worth watching\".",
+      "instructions": [
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🤣"
+          },
+          "description": ""
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "End the response with the emoji '🤣'."
+      }
+    },
+    {
+      "turn": 50,
+      "active_topic": 3633,
+      "topic_query": "Write a review of \"Laureates and twins\" for professionals in the field of psychology and make sure to include the phrase \"well worth watching\".",
+      "instructions": [
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🤣"
+          },
+          "description": ""
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+      }
+    }
+  ],
+  "rng_state": [
+    3,
+    [
+      3507550386,
+      3809115831,
+      4109623725,
+      3722744623,
+      872854672,
+      976944599,
+      1244867115,
+      3881493925,
+      887119989,
+      99747755,
+      2109968628,
+      3707227229,
+      3292939789,
+      3104647447,
+      2601941308,
+      1057425334,
+      1006619370,
+      2206066851,
+      7513566,
+      1627635863,
+      4215874293,
+      747407703,
+      3527115299,
+      3378264124,
+      3727799772,
+      378535025,
+      3413345755,
+      2130918907,
+      2751368330,
+      1327580858,
+      633701540,
+      3673567680,
+      1447891364,
+      2367979532,
+      2183396596,
+      3040078314,
+      160108072,
+      3032333111,
+      2053414597,
+      1198605103,
+      2272998597,
+      3788258545,
+      4287560106,
+      10255269,
+      2855048339,
+      2016788714,
+      231558837,
+      2129609787,
+      753584029,
+      1643115885,
+      3337242265,
+      3387123723,
+      3092503169,
+      32646946,
+      4182084066,
+      3216962198,
+      1772251201,
+      270347511,
+      490890049,
+      415289100,
+      558233262,
+      2013376337,
+      4151753626,
+      4066115224,
+      3435030681,
+      3339051463,
+      460431157,
+      1151917718,
+      3000678133,
+      309807461,
+      3352281121,
+      453942653,
+      3195751931,
+      1359499089,
+      1335788969,
+      4291524515,
+      211770461,
+      83424497,
+      3153569137,
+      656087678,
+      2731738964,
+      1283091362,
+      149494842,
+      769803834,
+      4263045908,
+      3591643955,
+      3939380299,
+      2518807111,
+      3855301633,
+      1890454014,
+      1605313863,
+      1739860244,
+      2825133062,
+      1768924140,
+      1717947905,
+      480035075,
+      4058140153,
+      3345263398,
+      1626214041,
+      3713577565,
+      3887637504,
+      50513766,
+      4027934613,
+      768149567,
+      2211284168,
+      784114245,
+      1748389932,
+      757902050,
+      3423479649,
+      1825129001,
+      3048022977,
+      2438652826,
+      3348483317,
+      780489259,
+      1308348861,
+      759888644,
+      3906632217,
+      3003438334,
+      3940365591,
+      845078907,
+      3163665867,
+      2230765979,
+      1630762156,
+      1913141812,
+      3897881080,
+      4057591595,
+      3931890563,
+      3181677242,
+      2439920175,
+      3291234775,
+      1304476179,
+      2692084893,
+      2251584394,
+      817901190,
+      2339750340,
+      2286306879,
+      2497195880,
+      3614423352,
+      3298950329,
+      4231126284,
+      1266060926,
+      829111198,
+      3988887100,
+      247988180,
+      3010731776,
+      846040291,
+      2265771365,
+      3305585865,
+      1099075761,
+      1433948513,
+      1329014501,
+      3092634705,
+      2519452842,
+      499063969,
+      1577744623,
+      3713627843,
+      3239814430,
+      2515691860,
+      1245162842,
+      3989310658,
+      3937599445,
+      2084030658,
+      1714125855,
+      4071055054,
+      3453532046,
+      3974980246,
+      1507412420,
+      954766384,
+      725290527,
+      4166568151,
+      2746222394,
+      4241076060,
+      656968421,
+      2336535657,
+      148459436,
+      403171557,
+      1132618784,
+      3326097776,
+      3499999154,
+      2828024325,
+      3363401086,
+      2641681511,
+      2618580715,
+      2089656671,
+      1422272375,
+      1476577665,
+      277881639,
+      1384725685,
+      537049059,
+      3748241202,
+      4195608093,
+      2433484598,
+      261906396,
+      3842566608,
+      1224459980,
+      4065419985,
+      1162000740,
+      2820122340,
+      3116194366,
+      1766486150,
+      1886977007,
+      4218070781,
+      1168460760,
+      1132243858,
+      2756020438,
+      2953477654,
+      1164778543,
+      4153771532,
+      3029588279,
+      2959377449,
+      1029738711,
+      1302585026,
+      1008441599,
+      939935984,
+      3326186094,
+      4058865051,
+      579593336,
+      2538430893,
+      3237889136,
+      154017988,
+      1454993711,
+      552557515,
+      1438591772,
+      1540199503,
+      1166843929,
+      2834138685,
+      271509081,
+      1960411066,
+      2092445850,
+      3112106468,
+      888140171,
+      3838029420,
+      2112541151,
+      126246812,
+      1826958749,
+      3193940303,
+      688376077,
+      2760262534,
+      3852477091,
+      1523129242,
+      2230915637,
+      3797628718,
+      899465565,
+      3169605289,
+      2341070675,
+      995074398,
+      2130656953,
+      3092591345,
+      3454883873,
+      3722551511,
+      1960000113,
+      2902340249,
+      3994907168,
+      2284804262,
+      3546026587,
+      151876695,
+      3028551191,
+      1482584735,
+      832719524,
+      3945245852,
+      2484469197,
+      2829737361,
+      1028449827,
+      1111610025,
+      591832086,
+      4202251720,
+      3575838334,
+      3824099434,
+      3439474752,
+      4023245344,
+      3054059015,
+      2607454389,
+      649144497,
+      2807369787,
+      766741691,
+      1343525167,
+      822129842,
+      1982031746,
+      855166809,
+      949965867,
+      3255496594,
+      2481553895,
+      1190007827,
+      4239583742,
+      1646844054,
+      4116942635,
+      59627419,
+      4283834745,
+      3881366916,
+      229496504,
+      503599126,
+      3664472886,
+      3116726363,
+      4257826182,
+      1937692025,
+      394260069,
+      1621720646,
+      1459803775,
+      3559812957,
+      2610531515,
+      1247154128,
+      3397761737,
+      4136659043,
+      3572191610,
+      185194854,
+      2037669045,
+      4139340074,
+      3122571392,
+      2232290954,
+      1252651100,
+      3574721675,
+      1577758738,
+      3195539128,
+      1783783887,
+      1725169557,
+      1148309612,
+      1287796907,
+      2708773614,
+      2167796717,
+      1942712267,
+      3085958696,
+      3923277296,
+      3941144244,
+      2376470575,
+      1667238418,
+      2318644077,
+      3218912307,
+      155759327,
+      3321867777,
+      2713435739,
+      2202095826,
+      2075505396,
+      3100170123,
+      87095501,
+      1381833337,
+      3579131692,
+      3227573277,
+      3786354066,
+      3683814348,
+      110520680,
+      1719623066,
+      1422543542,
+      304284560,
+      3415864368,
+      3169396500,
+      4098433393,
+      3235162367,
+      527142553,
+      3901837530,
+      4064847397,
+      1435212795,
+      2724745606,
+      2675844435,
+      1126580092,
+      3673747296,
+      1403838208,
+      1663971963,
+      3708450387,
+      1667099529,
+      359510323,
+      2055165659,
+      1498287529,
+      2945529152,
+      2912556389,
+      2664784294,
+      1829946204,
+      908301040,
+      4156587059,
+      51094801,
+      1674142795,
+      2014182143,
+      2197919627,
+      2463338344,
+      1764808043,
+      3545182806,
+      3533716735,
+      2314507162,
+      2010024737,
+      1520369995,
+      2343694821,
+      1341124963,
+      1770391371,
+      3474712889,
+      2994944029,
+      229968411,
+      1927995550,
+      679043166,
+      3226781552,
+      2299488799,
+      582467097,
+      2013849949,
+      2347544078,
+      2728887217,
+      1851302421,
+      197084073,
+      2634559948,
+      927662295,
+      2058935001,
+      3754121721,
+      3930938206,
+      4023040967,
+      1249044881,
+      3194026681,
+      1510374601,
+      3456943288,
+      64554751,
+      4196398435,
+      1474830244,
+      1140104727,
+      456984116,
+      1106469372,
+      4088384702,
+      2565256149,
+      1694652241,
+      2348994564,
+      2979701164,
+      3209169947,
+      3805591386,
+      2321481496,
+      4001524005,
+      4044012369,
+      2249788557,
+      3385857199,
+      1291645773,
+      2203315727,
+      3460211258,
+      2448140277,
+      1073728853,
+      1628864783,
+      3640659717,
+      3103829372,
+      2096026275,
+      892302179,
+      2361248965,
+      1961869289,
+      3767779478,
+      166439093,
+      67482456,
+      3438611407,
+      1114470027,
+      1466989909,
+      4089374028,
+      3859296161,
+      3978207342,
+      652342837,
+      47281041,
+      4182738627,
+      1129555633,
+      1930708112,
+      2668448140,
+      1103012708,
+      438101063,
+      735291370,
+      2243601833,
+      1011378690,
+      2235420266,
+      3658016141,
+      2087127701,
+      1966151841,
+      1495917112,
+      2391282377,
+      2978135685,
+      685285291,
+      3321443957,
+      1308591944,
+      3742445056,
+      3924930053,
+      2625994726,
+      383268544,
+      2397326660,
+      3152357571,
+      235968506,
+      557427435,
+      3408977959,
+      3440459746,
+      1262009773,
+      3003021018,
+      107816001,
+      461972433,
+      2430519358,
+      2153053573,
+      3374266969,
+      278023663,
+      2454387072,
+      2084013124,
+      3141421659,
+      3791162712,
+      2906732732,
+      4138368360,
+      1960116000,
+      2833287533,
+      1402823614,
+      1291348176,
+      2340377444,
+      2882620655,
+      2042311474,
+      1905649202,
+      2405010289,
+      3779834549,
+      1143488850,
+      466556564,
+      1137849768,
+      1576258016,
+      1875571783,
+      2812202724,
+      3073667695,
+      600864902,
+      2170728621,
+      282218759,
+      225368688,
+      2468703246,
+      3575045282,
+      3864846745,
+      4250181996,
+      1629341563,
+      2873115755,
+      3118941690,
+      1644994549,
+      868609032,
+      3188086246,
+      3926470811,
+      1343610178,
+      2432107204,
+      2072591658,
+      10752168,
+      2166046244,
+      2831583661,
+      2896250977,
+      4221912270,
+      2317516381,
+      3351217258,
+      2212793946,
+      4248004167,
+      2274615309,
+      195134324,
+      2177828868,
+      1978792044,
+      3892913885,
+      2970192679,
+      2622923717,
+      1095032517,
+      2689118807,
+      2612735816,
+      54861633,
+      1507913522,
+      1382688275,
+      1311945987,
+      995192111,
+      4193714282,
+      1301312183,
+      2177802199,
+      322631957,
+      3428706135,
+      2462637722,
+      3124282825,
+      753500295,
+      4021325014,
+      1020842593,
+      3614604735,
+      2720369728,
+      282222789,
+      2078670833,
+      3963197281,
+      2786876340,
+      500857416,
+      1803309960,
+      63762346,
+      1728172063,
+      2889508731,
+      1345402185,
+      2998194291,
+      1615822827,
+      2682204851,
+      3176397066,
+      3089918790,
+      1580556008,
+      4283412245,
+      1740972815,
+      3336596505,
+      1157549508,
+      2464056234,
+      439157081,
+      1682174660,
+      2341456956,
+      862771103,
+      1208836572,
+      3300786475,
+      610385416,
+      4210623341,
+      2414229153,
+      187114762,
+      3816323287,
+      1926469435,
+      1659894621,
+      2462067768,
+      2621354923,
+      1704223681,
+      579824724,
+      1550030976,
+      353688349,
+      1756817390,
+      745256043,
+      2902087512,
+      808088619,
+      3584490682,
+      1826760143,
+      3396745619,
+      305220966,
+      1748736033,
+      2821044647,
+      3843431140,
+      2533942712,
+      837560769,
+      81672367,
+      4088590718,
+      4259959563,
+      2066885657,
+      2516446465,
+      1739307573,
+      83714634,
+      2534266860,
+      3940650108,
+      535710334,
+      532905102,
+      579
+    ],
+    null
+  ]
+}
