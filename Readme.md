@@ -3,11 +3,24 @@
 </div>
 
 
+> Note: This repository is still under construction. 
 
 # Introduction
 
 Understanding how well large language models can follow users' instructions throughout a dialogue spanning multiple topics is of great importance for data-intensive conversational applications. Existing benchmarks are often limited to a fixed number of turns, making them susceptible to saturation and failing to account for the user's interactive experience. In this work, we propose an extensible framework for assessing multi-turn instruction-following ability. At its core, our framework decouples linguistic surface forms from user intent simulation through a three-layer mechanism that tracks constraints, instructions, and topics. This framework mimics User-LLM interaction by enabling the dynamic construction of benchmarks with state changes and tracebacks, terminating a conversation only when the model exhausts a simulated user's patience. We define a suite of metrics capturing the quality of the interaction process. Using this framework, we construct EvolIF, an evolving instruction-following benchmark incorporating nine distinct constraint types. Our results indicate that GPT-5 exhibits superior instruction-following performance. It sustains an average of 18.54 conversational turns and demonstrates 70.31% robustness, outperforming Gemini-2.5-Pro by a significant margin of 11.41%, while other models lag far behind. The data and code will be made publicly available.
 
+## File Structure
+
+- **data/**: Seed materials.
+  - **input_data_modified_keywords.jsonl**: Keyword/prompt seeds used for user-intent generation.
+- **state/**: Evolving internal states and snapshots during benchmark construction.
+  - **state_0.json**: Aggregated context states after specified steps for traceability and reproduction; includes constraints, topics, and instructions.
+  - **snapshots_0.jsonl**: Step-wise state trajectory (JSON Lines).
+- **dialog/**: Synthesized multi-turn user–LLM dialogs based on `state`.
+  - **dialog_1.jsonl**: Dialog samples (JSON Lines) consumed by evaluation.
+- **evaluation/**: Model-specific evaluation outputs and raw results.
+  - Subdirectories are grouped by model name (e.g., `deepseek-chat/`, `gpt-5-2025-08-07/`, `grok-4-fast-reasoning/`).
+  - Each subdirectory contains **eval_1.jsonl**: Raw evaluation results for that model, later summarized by `src/score.py`.
 
 # Usage
 
