@@ -42,7 +42,6 @@ Evaluating LLMs' instruction-following ability in multi-topic dialogues is essen
 
 # Usage
 
-
 ## Installation
 
 Clone this repo into your working directory and set up the environment:
@@ -74,7 +73,7 @@ python3 src/query_synthesis.py --input_dir ./state --output_dir ./dialog --start
 
 ```python
 # Evaluate model
-python3 src/eval.py --dialog_dir ./dialog --output_dir ./evaluation --start_id 0 --end_id 10 --model_name xxx --api_key xxx --base_url xxx
+python3 src/eval.py --dialog_dir ./dialog --output_dir ./evaluation --start_id 0 --end_id 10 --model_name xxx --api_key xxx --base_url xxx --patience 3
 
 # Calculate and print results
 python3 src/score.py --input_dir ./evaluation/xxx
@@ -94,8 +93,11 @@ You can add new constraints under `src/instruction/`. **Each constraint correspo
 
 **Selecting/combining constraints**: In `src/state.py`, use `INSTRUCTION_DICT / INSTRUCTION_WEIGHT_DICT / INSTRUCTION_REMOVE_DICT` to control the available constraint set and sampling weights; in `src/eval.py`, use `_ID_TO_CLASS` to define which constraints are recognized during evaluation (when adding a new constraint, register it in both places).
 
+# EvolIF
 
-# Results
+## Data
+
+Please stay tuned for the upcoming release of the test data and evaluation results.
 
 ## Leaderboard
 
