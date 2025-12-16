@@ -1,0 +1,3425 @@
+{
+  "topic_list": [
+    {
+      "topic_name": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "cur_topic_turn": 19,
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          }
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager",
+            "budget",
+            "template"
+          ]
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          }
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          }
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "word",
+            "relation": "exactly",
+            "number": 200
+          }
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          }
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 8
+          }
+        },
+        {
+          "id": "existence",
+          "args": {
+            "next quarter": 2,
+            "meeting": 3,
+            "forecast": 3
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "cur_topic_turn": 13,
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          }
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "design",
+            "students"
+          ]
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 11
+          }
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "B"
+          }
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          }
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 20
+          }
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "adult"
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "cur_topic_turn": 12,
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          }
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          }
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "sweats",
+            "dialogue",
+            "appearance"
+          ]
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          }
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "active voice"
+          }
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "angry"
+          }
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "V"
+          }
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "W"
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 1128,
+      "topic_query": "Given the sentence \"It is unclear how much of this money is actually being spent on children\", is the sentiment positive or negative?",
+      "cur_topic_turn": 6,
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 4
+          }
+        }
+      ]
+    }
+  ],
+  "cur_activate_topic": 0,
+  "last_activation_turn": 47,
+  "cur_turn": 50,
+  "topic_name_list": [
+    2768,
+    2844,
+    102,
+    1128
+  ],
+  "round_instruction_history": [
+    {
+      "turn": 1,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point.",
+        "instruction_id": "countableItems",
+        "instruction_class": "CountableItemsInstruction",
+        "args_before": null,
+        "args_after": {
+          "num": 4
+        }
+      }
+    },
+    {
+      "turn": 2,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "exactly",
+            "number": 45
+          },
+          "description": "The response must contain exactly 45 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must contain exactly 45 sentences.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "sentence",
+          "relation": "exactly",
+          "number": 45
+        }
+      }
+    },
+    {
+      "turn": 3,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "exactly",
+            "number": 45
+          },
+          "description": "The response must contain exactly 45 sentences."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "financial planning"
+          },
+          "description": "The response must contain exactly 45 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "Start the response with the keyword 'financial planning'.",
+        "instruction_id": "startwith",
+        "instruction_class": "StartWithInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "keyword",
+          "value": "financial planning"
+        }
+      }
+    },
+    {
+      "turn": 4,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "financial planning"
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "remove",
+        "original_description": null,
+        "new_description": "Regardless of the instructions regarding length requirements of the response, such as word count, paragraph count, character count, sentence count, etc.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": {
+          "mode": "sentence",
+          "relation": "exactly",
+          "number": 45
+        },
+        "args_after": null
+      }
+    },
+    {
+      "turn": 5,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": ","
+          },
+          "description": "The response must not contain the punctuation: ','."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must not contain the punctuation: ','.",
+        "instruction_id": "punctuation",
+        "instruction_class": "PunctuationInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "must_not_include",
+          "value": ","
+        }
+      }
+    },
+    {
+      "turn": 6,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "`"
+          },
+          "description": "The response must contain the punctuation '`'."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must not contain the punctuation: ','.",
+        "new_description": "The response must contain the punctuation '`'.",
+        "instruction_id": "punctuation",
+        "instruction_class": "PunctuationInstruction",
+        "args_before": {
+          "mode": "must_not_include",
+          "value": ","
+        },
+        "args_after": {
+          "mode": "must_include",
+          "value": "`"
+        }
+      }
+    },
+    {
+      "turn": 7,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "!"
+          },
+          "description": "The response must contain the punctuation '!'."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain the punctuation '`'.",
+        "new_description": "The response must contain the punctuation '!'.",
+        "instruction_id": "punctuation",
+        "instruction_class": "PunctuationInstruction",
+        "args_before": {
+          "mode": "must_include",
+          "value": "`"
+        },
+        "args_after": {
+          "mode": "must_include",
+          "value": "!"
+        }
+      }
+    },
+    {
+      "turn": 8,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          },
+          "description": "The response must not contain the punctuation: '.'."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain the punctuation '!'.",
+        "new_description": "The response must not contain the punctuation: '.'.",
+        "instruction_id": "punctuation",
+        "instruction_class": "PunctuationInstruction",
+        "args_before": {
+          "mode": "must_include",
+          "value": "!"
+        },
+        "args_after": {
+          "mode": "must_not_include",
+          "value": "."
+        }
+      }
+    },
+    {
+      "turn": 9,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          },
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "design",
+            "students"
+          ],
+          "description": "The response must not contain the punctuation: '.'."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must not contain the following keywords: 'design', 'students'.",
+        "instruction_id": "forbidden",
+        "instruction_class": "ForbiddenInstruction",
+        "args_before": null,
+        "args_after": [
+          "design",
+          "students"
+        ]
+      }
+    },
+    {
+      "turn": 10,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "financial planning"
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must not contain the following keywords: 'manager'.",
+        "instruction_id": "forbidden",
+        "instruction_class": "ForbiddenInstruction",
+        "args_before": null,
+        "args_after": [
+          "manager"
+        ]
+      }
+    },
+    {
+      "turn": 11,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "financial planning"
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "formal"
+          },
+          "description": "The response should adopt a 'formal' writing style throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should adopt a 'formal' writing style throughout.",
+        "instruction_id": "style",
+        "instruction_class": "StyleInstruction",
+        "args_before": null,
+        "args_after": {
+          "style": "formal"
+        }
+      }
+    },
+    {
+      "turn": 12,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "financial planning"
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "formal"
+          },
+          "description": "The response should adopt a 'formal' writing style throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should be tailored for 'youth' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": null,
+        "args_after": {
+          "reader_age": "youth"
+        }
+      }
+    },
+    {
+      "turn": 13,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "financial planning"
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response should adopt a 'formal' writing style throughout.",
+        "new_description": "The response should be written in the 'passive voice' throughout.",
+        "instruction_id": "style",
+        "instruction_class": "StyleInstruction",
+        "args_before": {
+          "style": "formal"
+        },
+        "args_after": {
+          "style": "passive voice"
+        }
+      }
+    },
+    {
+      "turn": 14,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "child"
+          },
+          "description": "The response should be tailored for 'child' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should be tailored for 'child' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": null,
+        "args_after": {
+          "reader_age": "child"
+        }
+      }
+    },
+    {
+      "turn": 15,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "child"
+          },
+          "description": "The response should be tailored for 'child' readers."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must be valid Markdown without broken fences or obvious syntax errors).",
+        "instruction_id": "format",
+        "instruction_class": "FormatInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "markdown"
+        }
+      }
+    },
+    {
+      "turn": 16,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "child"
+          },
+          "description": "The response should be tailored for 'child' readers."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "sweats",
+            "dialogue",
+            "appearance"
+          ],
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must not contain the following keywords: 'sweats', 'dialogue', 'appearance'.",
+        "instruction_id": "forbidden",
+        "instruction_class": "ForbiddenInstruction",
+        "args_before": null,
+        "args_after": [
+          "sweats",
+          "dialogue",
+          "appearance"
+        ]
+      }
+    },
+    {
+      "turn": 17,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "child"
+          },
+          "description": "The response should be tailored for 'child' readers."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "sweats",
+            "dialogue",
+            "appearance"
+          ],
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": ":"
+          },
+          "description": "The response must not contain the punctuation: ':'."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must not contain the punctuation: ':'.",
+        "instruction_id": "punctuation",
+        "instruction_class": "PunctuationInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "must_not_include",
+          "value": ":"
+        }
+      }
+    },
+    {
+      "turn": 18,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          },
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "design",
+            "students"
+          ],
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 11
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point.",
+        "instruction_id": "countableItems",
+        "instruction_class": "CountableItemsInstruction",
+        "args_before": null,
+        "args_after": {
+          "num": 11
+        }
+      }
+    },
+    {
+      "turn": 19,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          },
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "design",
+            "students"
+          ],
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 11
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "“",
+            "right": "”"
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "End the response with a quotation starting with '“' and ending with '”'.",
+        "instruction_id": "endwith",
+        "instruction_class": "EndWithInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "quotation",
+          "left": "“",
+          "right": "”"
+        }
+      }
+    },
+    {
+      "turn": 20,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          },
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "design",
+            "students"
+          ],
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 11
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "“",
+            "right": "”"
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "csv"
+          },
+          "description": "The response must be valid CSV that is consistent columns and properly quoted."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must be valid CSV that is consistent columns and properly quoted.",
+        "instruction_id": "format",
+        "instruction_class": "FormatInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "csv"
+        }
+      }
+    },
+    {
+      "turn": 21,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          },
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "design",
+            "students"
+          ],
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 11
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "“",
+            "right": "”"
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "csv"
+          },
+          "description": "The response must be valid CSV that is consistent columns and properly quoted."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must use all lowercase letters.",
+        "instruction_id": "case",
+        "instruction_class": "ChangeCaseInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "all_lower"
+        }
+      }
+    },
+    {
+      "turn": 22,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "sweats",
+            "dialogue",
+            "appearance"
+          ],
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": ":"
+          },
+          "description": "The response must not contain the punctuation: ':'."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response should be tailored for 'child' readers.",
+        "new_description": "The response should be tailored for 'senior' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": {
+          "reader_age": "child"
+        },
+        "args_after": {
+          "reader_age": "senior"
+        }
+      }
+    },
+    {
+      "turn": 23,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "sweats",
+            "dialogue",
+            "appearance"
+          ],
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": ":"
+          },
+          "description": "The response must not contain the punctuation: ':'."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "active voice"
+          },
+          "description": "The response should be written in the 'active voice' throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should be written in the 'active voice' throughout.",
+        "instruction_id": "style",
+        "instruction_class": "StyleInstruction",
+        "args_before": null,
+        "args_after": {
+          "style": "active voice"
+        }
+      }
+    },
+    {
+      "turn": 24,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "sweats",
+            "dialogue",
+            "appearance"
+          ],
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "active voice"
+          },
+          "description": "The response should be written in the 'active voice' throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must not contain the punctuation: ':'.",
+        "new_description": "The response must contain the punctuation '￥'.",
+        "instruction_id": "punctuation",
+        "instruction_class": "PunctuationInstruction",
+        "args_before": {
+          "mode": "must_not_include",
+          "value": ":"
+        },
+        "args_after": {
+          "mode": "must_include",
+          "value": "￥"
+        }
+      }
+    },
+    {
+      "turn": 25,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "sweats",
+            "dialogue",
+            "appearance"
+          ],
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "active voice"
+          },
+          "description": "The response should be written in the 'active voice' throughout."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "word",
+            "relation": "more_than",
+            "number": 1100
+          },
+          "description": "The response must contain more than 1100 words."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must contain more than 1100 words.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "word",
+          "relation": "more_than",
+          "number": 1100
+        }
+      }
+    },
+    {
+      "turn": 26,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 4
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          },
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": "The answer must contain exactly 4 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "Start the response with the keyword 'financial planning'.",
+        "new_description": "Start the response with the letter 'z'.",
+        "instruction_id": "startwith",
+        "instruction_class": "StartWithInstruction",
+        "args_before": {
+          "mode": "keyword",
+          "value": "financial planning"
+        },
+        "args_after": {
+          "mode": "letter",
+          "value": "z"
+        }
+      }
+    },
+    {
+      "turn": 27,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": ""
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "remove",
+        "original_description": null,
+        "new_description": "Regardless of the instructions regarding included bullet points.",
+        "instruction_id": "countableItems",
+        "instruction_class": "CountableItemsInstruction",
+        "args_before": {
+          "num": 4
+        },
+        "args_after": null
+      }
+    },
+    {
+      "turn": 28,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": ""
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 5
+          },
+          "description": "The response must contain less than 5 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must contain less than 5 sentences.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "sentence",
+          "relation": "less_than",
+          "number": 5
+        }
+      }
+    },
+    {
+      "turn": 29,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": ""
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 5
+          },
+          "description": "The response must contain less than 5 sentences."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 10
+          },
+          "description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point.",
+        "instruction_id": "countableItems",
+        "instruction_class": "CountableItemsInstruction",
+        "args_before": null,
+        "args_after": {
+          "num": 10
+        }
+      }
+    },
+    {
+      "turn": 30,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "sweats",
+            "dialogue",
+            "appearance"
+          ],
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "active voice"
+          },
+          "description": "The response should be written in the 'active voice' throughout."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "word",
+            "relation": "more_than",
+            "number": 1100
+          },
+          "description": "The response must contain more than 1100 words."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "angry"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should adopt a 'angry' emotional tone throughout.",
+        "instruction_id": "emotion",
+        "instruction_class": "EmotionInstruction",
+        "args_before": null,
+        "args_after": {
+          "emotion": "angry"
+        }
+      }
+    },
+    {
+      "turn": 31,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "sweats",
+            "dialogue",
+            "appearance"
+          ],
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "active voice"
+          },
+          "description": "The response should be written in the 'active voice' throughout."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "word",
+            "relation": "more_than",
+            "number": 1100
+          },
+          "description": "The response must contain more than 1100 words."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "angry"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "V"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "Start the response with the letter 'V'.",
+        "instruction_id": "startwith",
+        "instruction_class": "StartWithInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "letter",
+          "value": "V"
+        }
+      }
+    },
+    {
+      "turn": 32,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "sweats",
+            "dialogue",
+            "appearance"
+          ],
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "active voice"
+          },
+          "description": "The response should be written in the 'active voice' throughout."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "angry"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "V"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "remove",
+        "original_description": null,
+        "new_description": "Regardless of the instructions regarding length requirements of the response, such as word count, paragraph count, character count, sentence count, etc.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": {
+          "mode": "word",
+          "relation": "more_than",
+          "number": 1100
+        },
+        "args_after": null
+      }
+    },
+    {
+      "turn": 33,
+      "active_topic": 102,
+      "topic_query": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event.",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "sweats",
+            "dialogue",
+            "appearance"
+          ],
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_include",
+            "value": "￥"
+          },
+          "description": "The response must contain the punctuation '￥'."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "active voice"
+          },
+          "description": "The response should be written in the 'active voice' throughout."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "angry"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "V"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "W"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "End the response with the letter 'W'.",
+        "instruction_id": "endwith",
+        "instruction_class": "EndWithInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "letter",
+          "value": "W"
+        }
+      }
+    },
+    {
+      "turn": 34,
+      "active_topic": 1128,
+      "topic_query": "Given the sentence \"It is unclear how much of this money is actually being spent on children\", is the sentiment positive or negative?",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_upper"
+          },
+          "description": "The response must use ALL UPPERCASE letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must use ALL UPPERCASE letters.",
+        "instruction_id": "case",
+        "instruction_class": "ChangeCaseInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "all_upper"
+        }
+      }
+    },
+    {
+      "turn": 35,
+      "active_topic": 1128,
+      "topic_query": "Given the sentence \"It is unclear how much of this money is actually being spent on children\", is the sentiment positive or negative?",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 15
+          },
+          "description": "Approximately 15% of the letters in the response should be uppercase."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must use ALL UPPERCASE letters.",
+        "new_description": "Approximately 15% of the letters in the response should be uppercase.",
+        "instruction_id": "case",
+        "instruction_class": "ChangeCaseInstruction",
+        "args_before": {
+          "mode": "all_upper"
+        },
+        "args_after": {
+          "mode": "min_upper",
+          "min": 15
+        }
+      }
+    },
+    {
+      "turn": 36,
+      "active_topic": 1128,
+      "topic_query": "Given the sentence \"It is unclear how much of this money is actually being spent on children\", is the sentiment positive or negative?",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 33
+          },
+          "description": "Approximately 33% of the letters in the response should be uppercase."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "Approximately 15% of the letters in the response should be uppercase.",
+        "new_description": "Approximately 33% of the letters in the response should be uppercase.",
+        "instruction_id": "case",
+        "instruction_class": "ChangeCaseInstruction",
+        "args_before": {
+          "mode": "min_upper",
+          "min": 15
+        },
+        "args_after": {
+          "mode": "min_upper",
+          "min": 33
+        }
+      }
+    },
+    {
+      "turn": 37,
+      "active_topic": 1128,
+      "topic_query": "Given the sentence \"It is unclear how much of this money is actually being spent on children\", is the sentiment positive or negative?",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 33
+          },
+          "description": "Approximately 33% of the letters in the response should be uppercase."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "X"
+          },
+          "description": "Approximately 33% of the letters in the response should be uppercase."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "End the response with the letter 'X'.",
+        "instruction_id": "endwith",
+        "instruction_class": "EndWithInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "letter",
+          "value": "X"
+        }
+      }
+    },
+    {
+      "turn": 38,
+      "active_topic": 1128,
+      "topic_query": "Given the sentence \"It is unclear how much of this money is actually being spent on children\", is the sentiment positive or negative?",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 4
+          },
+          "description": "Approximately 4% of the letters in the response should be uppercase."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "X"
+          },
+          "description": "Approximately 4% of the letters in the response should be uppercase."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "Approximately 33% of the letters in the response should be uppercase.",
+        "new_description": "Approximately 4% of the letters in the response should be uppercase.",
+        "instruction_id": "case",
+        "instruction_class": "ChangeCaseInstruction",
+        "args_before": {
+          "mode": "min_upper",
+          "min": 33
+        },
+        "args_after": {
+          "mode": "min_upper",
+          "min": 4
+        }
+      }
+    },
+    {
+      "turn": 39,
+      "active_topic": 1128,
+      "topic_query": "Given the sentence \"It is unclear how much of this money is actually being spent on children\", is the sentiment positive or negative?",
+      "instructions": [
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 4
+          },
+          "description": "Approximately 4% of the letters in the response should be uppercase."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "remove",
+        "original_description": null,
+        "new_description": "Regardless of the instructions regarding how to end your response.",
+        "instruction_id": "endwith",
+        "instruction_class": "EndWithInstruction",
+        "args_before": {
+          "mode": "letter",
+          "value": "X"
+        },
+        "args_after": null
+      }
+    },
+    {
+      "turn": 40,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": ""
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 5
+          },
+          "description": "The response must contain less than 5 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "remove",
+        "original_description": null,
+        "new_description": "Regardless of the instructions regarding included bullet points.",
+        "instruction_id": "countableItems",
+        "instruction_class": "CountableItemsInstruction",
+        "args_before": {
+          "num": 10
+        },
+        "args_after": null
+      }
+    },
+    {
+      "turn": 41,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": ""
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 5
+          },
+          "description": "The response must contain less than 5 sentences."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must use all lowercase letters.",
+        "instruction_id": "case",
+        "instruction_class": "ChangeCaseInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "all_lower"
+        }
+      }
+    },
+    {
+      "turn": 42,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": ""
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "word",
+            "relation": "exactly",
+            "number": 200
+          },
+          "description": "The response must contain exactly 200 words."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain less than 5 sentences.",
+        "new_description": "The response must contain exactly 200 words.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": {
+          "mode": "sentence",
+          "relation": "less_than",
+          "number": 5
+        },
+        "args_after": {
+          "mode": "word",
+          "relation": "exactly",
+          "number": 200
+        }
+      }
+    },
+    {
+      "turn": 43,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": ""
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "word",
+            "relation": "exactly",
+            "number": 200
+          },
+          "description": "The response must contain exactly 200 words."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 8
+          },
+          "description": "The answer must contain exactly 8 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The answer must contain exactly 8 bullet points, which should be separated by bullet points such as: * point or - point.",
+        "instruction_id": "countableItems",
+        "instruction_class": "CountableItemsInstruction",
+        "args_before": null,
+        "args_after": {
+          "num": 8
+        }
+      }
+    },
+    {
+      "turn": 44,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          },
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "design",
+            "students"
+          ],
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 11
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "B"
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "csv"
+          },
+          "description": "The response must be valid CSV that is consistent columns and properly quoted."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "End the response with a quotation starting with '“' and ending with '”'.",
+        "new_description": "End the response with the letter 'B'.",
+        "instruction_id": "endwith",
+        "instruction_class": "EndWithInstruction",
+        "args_before": {
+          "mode": "quotation",
+          "left": "“",
+          "right": "”"
+        },
+        "args_after": {
+          "mode": "letter",
+          "value": "B"
+        }
+      }
+    },
+    {
+      "turn": 45,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          },
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "design",
+            "students"
+          ],
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 11
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "B"
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "csv"
+          },
+          "description": "The response must be valid CSV that is consistent columns and properly quoted."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 20
+          },
+          "description": "Approximately 20% of the letters in the response should be uppercase."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must use all lowercase letters.",
+        "new_description": "Approximately 20% of the letters in the response should be uppercase.",
+        "instruction_id": "case",
+        "instruction_class": "ChangeCaseInstruction",
+        "args_before": {
+          "mode": "all_lower"
+        },
+        "args_after": {
+          "mode": "min_upper",
+          "min": 20
+        }
+      }
+    },
+    {
+      "turn": 46,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          },
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "design",
+            "students"
+          ],
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 11
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "B"
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "csv"
+          },
+          "description": "The response must be valid CSV that is consistent columns and properly quoted."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 20
+          },
+          "description": "Approximately 20% of the letters in the response should be uppercase."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "adult"
+          },
+          "description": "The response should be tailored for 'adult' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should be tailored for 'adult' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": null,
+        "args_after": {
+          "reader_age": "adult"
+        }
+      }
+    },
+    {
+      "turn": 47,
+      "active_topic": 2844,
+      "topic_query": "For a bunch of students, write a poem that professionally describes a new line of shoes.",
+      "instructions": [
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          },
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "design",
+            "students"
+          ],
+          "description": "The response must not contain the punctuation: '.'."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 11
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "B"
+          },
+          "description": "The answer must contain exactly 11 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 20
+          },
+          "description": "Approximately 20% of the letters in the response should be uppercase."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "adult"
+          },
+          "description": "The response should be tailored for 'adult' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must be valid CSV that is consistent columns and properly quoted.",
+        "new_description": "The response must be valid Markdown without broken fences or obvious syntax errors).",
+        "instruction_id": "format",
+        "instruction_class": "FormatInstruction",
+        "args_before": {
+          "mode": "csv"
+        },
+        "args_after": {
+          "mode": "markdown"
+        }
+      }
+    },
+    {
+      "turn": 48,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": ""
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "word",
+            "relation": "exactly",
+            "number": 200
+          },
+          "description": "The response must contain exactly 200 words."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 8
+          },
+          "description": "The answer must contain exactly 8 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "next quarter": 4,
+            "meeting": 2,
+            "forecast": 4
+          },
+          "description": "The answer must contain exactly 8 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must include the following keywords: 'next quarter' (exactly 4 times), 'meeting' (exactly 2 times), 'forecast' (exactly 4 times).",
+        "instruction_id": "existence",
+        "instruction_class": "ExistenceInstruction",
+        "args_before": null,
+        "args_after": {
+          "next quarter": 4,
+          "meeting": 2,
+          "forecast": 4
+        }
+      }
+    },
+    {
+      "turn": 49,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager"
+          ],
+          "description": ""
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "word",
+            "relation": "exactly",
+            "number": 200
+          },
+          "description": "The response must contain exactly 200 words."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 8
+          },
+          "description": "The answer must contain exactly 8 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "next quarter": 2,
+            "meeting": 3,
+            "forecast": 3
+          },
+          "description": "The answer must contain exactly 8 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must include the following keywords: 'next quarter' (exactly 4 times), 'meeting' (exactly 2 times), 'forecast' (exactly 4 times).",
+        "new_description": "The response must include the following keywords: 'next quarter' (exactly 2 times), 'meeting' (exactly 3 times), 'forecast' (exactly 3 times).",
+        "instruction_id": "existence",
+        "instruction_class": "ExistenceInstruction",
+        "args_before": {
+          "next quarter": 4,
+          "meeting": 2,
+          "forecast": 4
+        },
+        "args_after": {
+          "next quarter": 2,
+          "meeting": 3,
+          "forecast": 3
+        }
+      }
+    },
+    {
+      "turn": 50,
+      "active_topic": 2768,
+      "topic_query": "Write a template that I can use to ask my manager about the budgets for the next quarter.",
+      "instructions": [
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "z"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "manager",
+            "budget",
+            "template"
+          ],
+          "description": ""
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "word",
+            "relation": "exactly",
+            "number": 200
+          },
+          "description": "The response must contain exactly 200 words."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 8
+          },
+          "description": "The answer must contain exactly 8 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "next quarter": 2,
+            "meeting": 3,
+            "forecast": 3
+          },
+          "description": "The answer must contain exactly 8 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must not contain the following keywords: 'manager'.",
+        "new_description": "The response must not contain the following keywords: 'manager', 'budget', 'template'.",
+        "instruction_id": "forbidden",
+        "instruction_class": "ForbiddenInstruction",
+        "args_before": [
+          "manager"
+        ],
+        "args_after": [
+          "manager",
+          "budget",
+          "template"
+        ]
+      }
+    }
+  ],
+  "rng_state": [
+    3,
+    [
+      2855956593,
+      2685291548,
+      3345876759,
+      2476269427,
+      236192081,
+      1104449523,
+      2959661011,
+      1443336009,
+      1217332317,
+      1447679981,
+      1510771203,
+      1090512338,
+      1276969081,
+      2493916770,
+      562738784,
+      1320360969,
+      767511720,
+      2134514320,
+      927086037,
+      4093062333,
+      155694031,
+      2248262844,
+      3602039969,
+      3852111709,
+      747873240,
+      4147408356,
+      77841010,
+      3919474534,
+      1443286237,
+      2112741510,
+      438474856,
+      4046988663,
+      1825878883,
+      643410928,
+      4257531795,
+      1730835272,
+      1953496822,
+      3371889501,
+      4236180423,
+      629250578,
+      1821410507,
+      3658734526,
+      237756976,
+      1482753473,
+      4242128630,
+      1631707468,
+      864075932,
+      3898745470,
+      396198285,
+      928497869,
+      919436349,
+      1052382967,
+      3308177145,
+      3638049540,
+      3111354594,
+      2389775542,
+      710343455,
+      1451877428,
+      1967980938,
+      4098556723,
+      1749783466,
+      1450662156,
+      3311927787,
+      2486387256,
+      3008679988,
+      72616703,
+      1506621182,
+      3566934370,
+      2110365442,
+      460584726,
+      414300466,
+      2314312251,
+      3127334097,
+      2727877138,
+      1543123020,
+      1129883204,
+      826860018,
+      3603206241,
+      988545782,
+      3574898682,
+      2406112174,
+      1692277815,
+      2326796932,
+      3019605386,
+      1696899757,
+      743649693,
+      4014550675,
+      1350688969,
+      2864172020,
+      479073098,
+      2599338912,
+      21955280,
+      2884844139,
+      1643949431,
+      3069007081,
+      2817416208,
+      3742790967,
+      3787522967,
+      1598870422,
+      794309786,
+      3490636613,
+      154908901,
+      3424354041,
+      4177758159,
+      1654285064,
+      101539091,
+      2951387928,
+      602633065,
+      3998001109,
+      1983396154,
+      3324009607,
+      3369758995,
+      2116372048,
+      643417482,
+      1197386399,
+      1612269876,
+      3947033543,
+      3647396235,
+      4061178602,
+      3979251351,
+      255851049,
+      4200181916,
+      2557558671,
+      3678769876,
+      362774134,
+      659367709,
+      1629597157,
+      3516234936,
+      46222271,
+      1043352417,
+      2763614531,
+      369883257,
+      2703291919,
+      1151286133,
+      2381074015,
+      2767568408,
+      3609152857,
+      1183679641,
+      2964830815,
+      1863537088,
+      4097676655,
+      2378891064,
+      1554640139,
+      7270970,
+      3036373658,
+      2617768134,
+      1213419942,
+      1890553713,
+      1543412096,
+      141917406,
+      3382277432,
+      3659655314,
+      2978079989,
+      2887526392,
+      1666098529,
+      1993170884,
+      1192413368,
+      1059107825,
+      2791476506,
+      4265942934,
+      1124825911,
+      913721825,
+      3281640520,
+      3747125656,
+      3309843723,
+      2409455086,
+      1610404010,
+      1984453689,
+      3772326511,
+      4294766668,
+      1849186290,
+      2652101132,
+      1538756798,
+      578610553,
+      3329335359,
+      45922485,
+      1195363164,
+      3513237332,
+      3154967592,
+      2898370701,
+      977381567,
+      3495957627,
+      2548389955,
+      878014215,
+      1965213043,
+      1456019979,
+      1083238756,
+      2149468347,
+      2659758064,
+      1483027423,
+      3731441276,
+      2286646308,
+      333459312,
+      3916759026,
+      948811038,
+      2576830009,
+      1127096321,
+      3928834212,
+      388628886,
+      102940927,
+      464866662,
+      2357359094,
+      952310908,
+      693889813,
+      780004587,
+      1387327675,
+      1283664250,
+      3546322423,
+      745244265,
+      4179255440,
+      3004211711,
+      3125741961,
+      1676031225,
+      2615867736,
+      3954305252,
+      1689709596,
+      139827833,
+      2577843891,
+      536599273,
+      413014686,
+      4145702992,
+      3882963794,
+      65668726,
+      3487029598,
+      890186963,
+      3166468223,
+      3294958603,
+      1063422948,
+      510840780,
+      569266692,
+      2753161057,
+      3311241265,
+      1251738679,
+      2843531699,
+      2266971906,
+      308804957,
+      2855931142,
+      489512739,
+      3381205381,
+      3333891042,
+      1288256681,
+      3727660094,
+      3341274118,
+      2472219463,
+      1839145297,
+      3084127340,
+      2586057489,
+      368228866,
+      2527066955,
+      1459201286,
+      2318660626,
+      961685238,
+      873477391,
+      1644600890,
+      771037,
+      483482729,
+      21121329,
+      2919609221,
+      834852071,
+      1322665429,
+      3346091543,
+      4278420076,
+      2441204052,
+      3693209336,
+      1327210792,
+      1085171435,
+      2002147117,
+      3971326511,
+      23991618,
+      3647500598,
+      236880221,
+      2302923369,
+      1493921430,
+      617042778,
+      583624870,
+      3460098418,
+      3474896004,
+      2029491413,
+      826565219,
+      555941197,
+      3346835197,
+      328968225,
+      3813301698,
+      3901313081,
+      2696893000,
+      1751285250,
+      1285057645,
+      655824319,
+      3864323598,
+      2341135392,
+      1847067471,
+      885264346,
+      4138367546,
+      961957916,
+      3386063195,
+      1232756346,
+      3839978031,
+      1363997935,
+      2036470010,
+      1560426674,
+      1133472663,
+      1578602295,
+      3923858488,
+      1345536850,
+      1046906566,
+      1215145175,
+      2345865021,
+      3305123764,
+      1503055309,
+      2811916830,
+      4199650218,
+      817525483,
+      1312169464,
+      1810278984,
+      771141915,
+      2403942270,
+      3473392212,
+      2237795182,
+      1470256683,
+      348913771,
+      2017403863,
+      1083237564,
+      603941869,
+      4261654069,
+      2711140715,
+      110237733,
+      3509925199,
+      4217511032,
+      2386139812,
+      3957873168,
+      1089203216,
+      2440324618,
+      958372223,
+      736075789,
+      1467140389,
+      3164456127,
+      2937522701,
+      3561066161,
+      642579515,
+      2774877709,
+      786628895,
+      1035343136,
+      2545384106,
+      1991680536,
+      341666086,
+      2728058999,
+      3807260786,
+      1870253238,
+      442608233,
+      1907015937,
+      3008327141,
+      1270063394,
+      845233525,
+      1103639348,
+      4167039377,
+      456239398,
+      1071287424,
+      2750085913,
+      740793543,
+      1259758989,
+      106591988,
+      4270379569,
+      2203193507,
+      1749230411,
+      2268213419,
+      2177321872,
+      2857061901,
+      3419297000,
+      3699166438,
+      3355275273,
+      76055698,
+      1819187473,
+      2648393085,
+      4180940976,
+      3141225537,
+      3024763772,
+      86830391,
+      2890524686,
+      633601087,
+      1267541716,
+      538352002,
+      2953849756,
+      1884669072,
+      2560958573,
+      173351783,
+      3498170308,
+      1055035085,
+      833989337,
+      2718902338,
+      778847761,
+      263222687,
+      3470547723,
+      1064738767,
+      194836893,
+      346189693,
+      3904660887,
+      533113218,
+      2038448584,
+      1286187879,
+      4283929332,
+      773472458,
+      3993873262,
+      1275437075,
+      3127823695,
+      34063330,
+      1671959455,
+      1037923810,
+      832669307,
+      777077728,
+      2322061253,
+      3961921395,
+      1692963438,
+      2945165646,
+      3134942549,
+      747813292,
+      3093587640,
+      49397955,
+      3857420613,
+      3666761196,
+      4053726240,
+      3444851428,
+      1647754635,
+      601536823,
+      591311681,
+      2370741825,
+      3015458532,
+      4155227231,
+      3225673726,
+      2179846361,
+      3591596255,
+      2196966678,
+      2380299394,
+      1400759687,
+      3787050103,
+      4047301974,
+      129217328,
+      1043565297,
+      3691431076,
+      3923043189,
+      1323903622,
+      835602098,
+      3807397497,
+      1713376201,
+      1443294726,
+      957955859,
+      3259065109,
+      1717031027,
+      2695998889,
+      1056959479,
+      4043411170,
+      1561547506,
+      3649853905,
+      666159097,
+      2417127240,
+      2442012347,
+      4193009839,
+      251020519,
+      4227590991,
+      2372546743,
+      1221292960,
+      2751099824,
+      3504133702,
+      1953648909,
+      908538146,
+      1813227929,
+      3037849702,
+      3960822351,
+      3660012577,
+      2459234157,
+      4293242713,
+      4206373828,
+      1710158874,
+      787125424,
+      4200525541,
+      3383342125,
+      1419054833,
+      994532323,
+      4107861776,
+      3525484381,
+      2361048268,
+      441543684,
+      586238247,
+      4010991519,
+      173644219,
+      2855399821,
+      1914953730,
+      3658064521,
+      1354047878,
+      1062246725,
+      2607453393,
+      3844334008,
+      3971023544,
+      1030837882,
+      1259136130,
+      1789086425,
+      1648464946,
+      1982656668,
+      173950333,
+      2496606702,
+      95389584,
+      1395565123,
+      114279173,
+      907833207,
+      2324183686,
+      783575327,
+      2684165116,
+      4000824250,
+      120943132,
+      1147683754,
+      3672794051,
+      4094477426,
+      1985120019,
+      3851386714,
+      1104691727,
+      1332212981,
+      3391387447,
+      695826835,
+      2165851468,
+      3780015483,
+      122808497,
+      632342701,
+      351394957,
+      3713981376,
+      2520685291,
+      3623151603,
+      694235598,
+      3294283952,
+      2065778788,
+      3514559126,
+      3103381579,
+      3751003286,
+      2518384020,
+      2499107972,
+      1992535323,
+      3962909900,
+      2755430482,
+      2361416913,
+      2668981133,
+      782249255,
+      3615653525,
+      1002799289,
+      1107905989,
+      1106093211,
+      2686048015,
+      2865472966,
+      2556090126,
+      1397470054,
+      1517821371,
+      4027148997,
+      3549539035,
+      1608067839,
+      426731489,
+      1369917891,
+      3683086776,
+      4221933029,
+      436978365,
+      1527991058,
+      3507110371,
+      755152754,
+      1981209586,
+      266768325,
+      2921598386,
+      2523415385,
+      3932039670,
+      3858407133,
+      2315842610,
+      2993587041,
+      1211558704,
+      3596248214,
+      2732118596,
+      127614424,
+      2998810359,
+      2924137621,
+      1183009028,
+      1773744436,
+      1065789981,
+      1523294633,
+      1797830901,
+      3463127876,
+      3057459525,
+      3265870971,
+      156195655,
+      1551039731,
+      1430989965,
+      3587901389,
+      4171133276,
+      1256113261,
+      171729217,
+      3455418460,
+      695902807,
+      2374661090,
+      304242212,
+      874289737,
+      1509456062,
+      4156832789,
+      2516214059,
+      3295171393,
+      3055022767,
+      2228444616,
+      2511180158,
+      1806025274,
+      1448248985,
+      799958774,
+      597173038,
+      3103196783,
+      3979988283,
+      2295513662,
+      1852624270,
+      2060889614,
+      2824435803,
+      2175962721,
+      1761304134,
+      2252269084,
+      682076585,
+      847154149,
+      850446753,
+      3132014216,
+      4179600318,
+      1070507432,
+      2754915747,
+      1028034752,
+      3134381292,
+      295506872,
+      2480087397,
+      612
+    ],
+    null
+  ]
+}

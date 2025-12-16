@@ -1,0 +1,3170 @@
+{
+  "topic_list": [
+    {
+      "topic_name": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "cur_topic_turn": 14,
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          }
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 14
+          }
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          }
+        },
+        {
+          "id": "existence",
+          "args": {
+            "collaborative": 1,
+            "web developers": 9,
+            "accomplished": 8,
+            "professionals": 1
+          }
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "keyword",
+            "value": "quality"
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "cur_topic_turn": 12,
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          }
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "app store"
+          }
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "app"
+          ]
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 10
+          }
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_upper"
+          }
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "angry"
+          }
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          }
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "J"
+          }
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "cur_topic_turn": 12,
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "frustrated"
+          }
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "《",
+            "right": "》"
+          }
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "W"
+          }
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "android",
+            "gnss"
+          ]
+        }
+      ]
+    },
+    {
+      "topic_name": 2531,
+      "topic_query": "Create a product description for a product that will help me to stop snoring.",
+      "cur_topic_turn": 4,
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "effectiveness": 9
+          }
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 55
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": 2436,
+      "topic_query": "Give a response to the question \"Is it ethical to hunt and eat invasive species?\"",
+      "cur_topic_turn": 8,
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "neutral"
+          }
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "paragraph",
+            "relation": "more_than",
+            "number": 6
+          }
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😃"
+          }
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          }
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          }
+        }
+      ]
+    }
+  ],
+  "cur_activate_topic": 4,
+  "last_activation_turn": 46,
+  "cur_turn": 50,
+  "topic_name_list": [
+    2380,
+    2230,
+    2787,
+    2531,
+    2436
+  ],
+  "round_instruction_history": [
+    {
+      "turn": 1,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should be tailored for 'senior' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": null,
+        "args_after": {
+          "reader_age": "senior"
+        }
+      }
+    },
+    {
+      "turn": 2,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "adult"
+          },
+          "description": "The response should be tailored for 'adult' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response should be tailored for 'senior' readers.",
+        "new_description": "The response should be tailored for 'adult' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": {
+          "reader_age": "senior"
+        },
+        "args_after": {
+          "reader_age": "adult"
+        }
+      }
+    },
+    {
+      "turn": 3,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "child"
+          },
+          "description": "The response should be tailored for 'child' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response should be tailored for 'adult' readers.",
+        "new_description": "The response should be tailored for 'child' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": {
+          "reader_age": "adult"
+        },
+        "args_after": {
+          "reader_age": "child"
+        }
+      }
+    },
+    {
+      "turn": 4,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response should be tailored for 'child' readers.",
+        "new_description": "The response should be tailored for 'youth' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": {
+          "reader_age": "child"
+        },
+        "args_after": {
+          "reader_age": "youth"
+        }
+      }
+    },
+    {
+      "turn": 5,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response should be tailored for 'youth' readers.",
+        "new_description": "The response should be tailored for 'senior' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": {
+          "reader_age": "youth"
+        },
+        "args_after": {
+          "reader_age": "senior"
+        }
+      }
+    },
+    {
+      "turn": 6,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 10,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must include the following keywords: 'new version' (exactly 10 times), 'whimsical' (exactly 2 times), 'bizarre' (exactly 10 times).",
+        "instruction_id": "existence",
+        "instruction_class": "ExistenceInstruction",
+        "args_before": null,
+        "args_after": {
+          "new version": 10,
+          "whimsical": 2,
+          "bizarre": 10
+        }
+      }
+    },
+    {
+      "turn": 7,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must include the following keywords: 'new version' (exactly 10 times), 'whimsical' (exactly 2 times), 'bizarre' (exactly 10 times).",
+        "new_description": "The response must include the following keywords: 'new version' (exactly 3 times), 'whimsical' (exactly 2 times), 'bizarre' (exactly 10 times).",
+        "instruction_id": "existence",
+        "instruction_class": "ExistenceInstruction",
+        "args_before": {
+          "new version": 10,
+          "whimsical": 2,
+          "bizarre": 10
+        },
+        "args_after": {
+          "new version": 3,
+          "whimsical": 2,
+          "bizarre": 10
+        }
+      }
+    },
+    {
+      "turn": 8,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "quotation",
+            "left": "'",
+            "right": "'"
+          },
+          "description": ""
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "Start the response with a quotation starting with ''' and ending with '''.",
+        "instruction_id": "startwith",
+        "instruction_class": "StartWithInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "quotation",
+          "left": "'",
+          "right": "'"
+        }
+      }
+    },
+    {
+      "turn": 9,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "quotation",
+            "left": "'",
+            "right": "'"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "app"
+          ],
+          "description": ""
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must not contain the following keywords: 'app'.",
+        "instruction_id": "forbidden",
+        "instruction_class": "ForbiddenInstruction",
+        "args_before": null,
+        "args_after": [
+          "app"
+        ]
+      }
+    },
+    {
+      "turn": 10,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 10
+          },
+          "description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point.",
+        "instruction_id": "countableItems",
+        "instruction_class": "CountableItemsInstruction",
+        "args_before": null,
+        "args_after": {
+          "num": 10
+        }
+      }
+    },
+    {
+      "turn": 11,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 10
+          },
+          "description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response should be tailored for 'senior' readers.",
+        "new_description": "The response should be tailored for 'youth' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": {
+          "reader_age": "senior"
+        },
+        "args_after": {
+          "reader_age": "youth"
+        }
+      }
+    },
+    {
+      "turn": 12,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 10
+          },
+          "description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "xml"
+          },
+          "description": "The response must be well-formed XML which is parseable and properly nested."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must be well-formed XML which is parseable and properly nested.",
+        "instruction_id": "format",
+        "instruction_class": "FormatInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "xml"
+        }
+      }
+    },
+    {
+      "turn": 13,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 10
+          },
+          "description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must be well-formed XML which is parseable and properly nested.",
+        "new_description": "The response must be valid Markdown without broken fences or obvious syntax errors).",
+        "instruction_id": "format",
+        "instruction_class": "FormatInstruction",
+        "args_before": {
+          "mode": "xml"
+        },
+        "args_after": {
+          "mode": "markdown"
+        }
+      }
+    },
+    {
+      "turn": 14,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "quotation",
+            "left": "'",
+            "right": "'"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "app"
+          ],
+          "description": ""
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "paragraph",
+            "relation": "exactly",
+            "number": 5
+          },
+          "description": "The response must contain exactly 5 paragraphs."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must contain exactly 5 paragraphs.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "paragraph",
+          "relation": "exactly",
+          "number": 5
+        }
+      }
+    },
+    {
+      "turn": 15,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "quotation",
+            "left": "'",
+            "right": "'"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "app"
+          ],
+          "description": ""
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 10
+          },
+          "description": "The response must contain less than 10 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain exactly 5 paragraphs.",
+        "new_description": "The response must contain less than 10 sentences.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": {
+          "mode": "paragraph",
+          "relation": "exactly",
+          "number": 5
+        },
+        "args_after": {
+          "mode": "sentence",
+          "relation": "less_than",
+          "number": 10
+        }
+      }
+    },
+    {
+      "turn": 16,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "quotation",
+            "left": "'",
+            "right": "'"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "app"
+          ],
+          "description": ""
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 10
+          },
+          "description": "The response must contain less than 10 sentences."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_upper"
+          },
+          "description": "The response must use ALL UPPERCASE letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must use ALL UPPERCASE letters.",
+        "instruction_id": "case",
+        "instruction_class": "ChangeCaseInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "all_upper"
+        }
+      }
+    },
+    {
+      "turn": 17,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "quotation",
+            "left": "'",
+            "right": "'"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "app"
+          ],
+          "description": ""
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 10
+          },
+          "description": "The response must contain less than 10 sentences."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_upper"
+          },
+          "description": "The response must use ALL UPPERCASE letters."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "angry"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should adopt a 'angry' emotional tone throughout.",
+        "instruction_id": "emotion",
+        "instruction_class": "EmotionInstruction",
+        "args_before": null,
+        "args_after": {
+          "emotion": "angry"
+        }
+      }
+    },
+    {
+      "turn": 18,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "more_than",
+            "number": 25
+          },
+          "description": "The response must contain more than 25 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must contain more than 25 sentences.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "sentence",
+          "relation": "more_than",
+          "number": 25
+        }
+      }
+    },
+    {
+      "turn": 19,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "more_than",
+            "number": 25
+          },
+          "description": "The response must contain more than 25 sentences."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must be syntactically valid HTML with properly nested tags.",
+        "instruction_id": "format",
+        "instruction_class": "FormatInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "html"
+        }
+      }
+    },
+    {
+      "turn": 20,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "more_than",
+            "number": 25
+          },
+          "description": "The response must contain more than 25 sentences."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "frustrated"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should adopt a 'frustrated' emotional tone throughout.",
+        "instruction_id": "emotion",
+        "instruction_class": "EmotionInstruction",
+        "args_before": null,
+        "args_after": {
+          "emotion": "frustrated"
+        }
+      }
+    },
+    {
+      "turn": 21,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "more_than",
+            "number": 25
+          },
+          "description": "The response must contain more than 25 sentences."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "frustrated"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "《",
+            "right": "》"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "End the response with a quotation starting with '《' and ending with '》'.",
+        "instruction_id": "endwith",
+        "instruction_class": "EndWithInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "quotation",
+          "left": "《",
+          "right": "》"
+        }
+      }
+    },
+    {
+      "turn": 22,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "app store"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "app"
+          ],
+          "description": ""
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 10
+          },
+          "description": "The response must contain less than 10 sentences."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_upper"
+          },
+          "description": "The response must use ALL UPPERCASE letters."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "angry"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "Start the response with a quotation starting with ''' and ending with '''.",
+        "new_description": "Start the response with the keyword 'app store'.",
+        "instruction_id": "startwith",
+        "instruction_class": "StartWithInstruction",
+        "args_before": {
+          "mode": "quotation",
+          "left": "'",
+          "right": "'"
+        },
+        "args_after": {
+          "mode": "keyword",
+          "value": "app store"
+        }
+      }
+    },
+    {
+      "turn": 23,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "app store"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "app"
+          ],
+          "description": ""
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 10
+          },
+          "description": "The response must contain less than 10 sentences."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_upper"
+          },
+          "description": "The response must use ALL UPPERCASE letters."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "angry"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must be valid Markdown without broken fences or obvious syntax errors).",
+        "instruction_id": "format",
+        "instruction_class": "FormatInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "markdown"
+        }
+      }
+    },
+    {
+      "turn": 24,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "app store"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "app"
+          ],
+          "description": ""
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 10
+          },
+          "description": "The response must contain less than 10 sentences."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_upper"
+          },
+          "description": "The response must use ALL UPPERCASE letters."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "angry"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "J"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "End the response with the letter 'J'.",
+        "instruction_id": "endwith",
+        "instruction_class": "EndWithInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "letter",
+          "value": "J"
+        }
+      }
+    },
+    {
+      "turn": 25,
+      "active_topic": 2230,
+      "topic_query": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\".",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "new version": 3,
+            "whimsical": 2,
+            "bizarre": 10
+          },
+          "description": ""
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "keyword",
+            "value": "app store"
+          },
+          "description": ""
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "app"
+          ],
+          "description": ""
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "less_than",
+            "number": 10
+          },
+          "description": "The response must contain less than 10 sentences."
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_upper"
+          },
+          "description": "The response must use ALL UPPERCASE letters."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "angry"
+          },
+          "description": "The response should adopt a 'angry' emotional tone throughout."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "letter",
+            "value": "J"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "style",
+          "args": {
+            "style": "passive voice"
+          },
+          "description": "The response should be written in the 'passive voice' throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should be written in the 'passive voice' throughout.",
+        "instruction_id": "style",
+        "instruction_class": "StyleInstruction",
+        "args_before": null,
+        "args_after": {
+          "style": "passive voice"
+        }
+      }
+    },
+    {
+      "turn": 26,
+      "active_topic": 2531,
+      "topic_query": "Create a product description for a product that will help me to stop snoring.",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "effectiveness": 9
+          },
+          "description": ""
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must include the following keywords: 'effectiveness' (exactly 9 times).",
+        "instruction_id": "existence",
+        "instruction_class": "ExistenceInstruction",
+        "args_before": null,
+        "args_after": {
+          "effectiveness": 9
+        }
+      }
+    },
+    {
+      "turn": 27,
+      "active_topic": 2531,
+      "topic_query": "Create a product description for a product that will help me to stop snoring.",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "effectiveness": 9
+          },
+          "description": ""
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 29
+          },
+          "description": "Approximately 29% of the letters in the response should be uppercase."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "Approximately 29% of the letters in the response should be uppercase.",
+        "instruction_id": "case",
+        "instruction_class": "ChangeCaseInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "min_upper",
+          "min": 29
+        }
+      }
+    },
+    {
+      "turn": 28,
+      "active_topic": 2531,
+      "topic_query": "Create a product description for a product that will help me to stop snoring.",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "effectiveness": 9
+          },
+          "description": ""
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "all_lower"
+          },
+          "description": "The response must use all lowercase letters."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "Approximately 29% of the letters in the response should be uppercase.",
+        "new_description": "The response must use all lowercase letters.",
+        "instruction_id": "case",
+        "instruction_class": "ChangeCaseInstruction",
+        "args_before": {
+          "mode": "min_upper",
+          "min": 29
+        },
+        "args_after": {
+          "mode": "all_lower"
+        }
+      }
+    },
+    {
+      "turn": 29,
+      "active_topic": 2531,
+      "topic_query": "Create a product description for a product that will help me to stop snoring.",
+      "instructions": [
+        {
+          "id": "existence",
+          "args": {
+            "effectiveness": 9
+          },
+          "description": ""
+        },
+        {
+          "id": "case",
+          "args": {
+            "mode": "min_upper",
+            "min": 55
+          },
+          "description": "Approximately 55% of the letters in the response should be uppercase."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must use all lowercase letters.",
+        "new_description": "Approximately 55% of the letters in the response should be uppercase.",
+        "instruction_id": "case",
+        "instruction_class": "ChangeCaseInstruction",
+        "args_before": {
+          "mode": "all_lower"
+        },
+        "args_after": {
+          "mode": "min_upper",
+          "min": 55
+        }
+      }
+    },
+    {
+      "turn": 30,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "paragraph",
+            "relation": "exactly",
+            "number": 3
+          },
+          "description": "The response must contain exactly 3 paragraphs."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "frustrated"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "《",
+            "right": "》"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain more than 25 sentences.",
+        "new_description": "The response must contain exactly 3 paragraphs.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": {
+          "mode": "sentence",
+          "relation": "more_than",
+          "number": 25
+        },
+        "args_after": {
+          "mode": "paragraph",
+          "relation": "exactly",
+          "number": 3
+        }
+      }
+    },
+    {
+      "turn": 31,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "paragraph",
+            "relation": "exactly",
+            "number": 3
+          },
+          "description": "The response must contain exactly 3 paragraphs."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "html"
+          },
+          "description": "The response must be syntactically valid HTML with properly nested tags."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "frustrated"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "《",
+            "right": "》"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🙃"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "Start the response with the emoji '🙃'.",
+        "instruction_id": "startwith",
+        "instruction_class": "StartWithInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "emoji",
+          "value": "🙃"
+        }
+      }
+    },
+    {
+      "turn": 32,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "paragraph",
+            "relation": "exactly",
+            "number": 3
+          },
+          "description": "The response must contain exactly 3 paragraphs."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "frustrated"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "《",
+            "right": "》"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🙃"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "remove",
+        "original_description": null,
+        "new_description": "Regardless of the instructions regarding response format, such as CSV, JSON, XML, HTML, Markdown, etc.",
+        "instruction_id": "format",
+        "instruction_class": "FormatInstruction",
+        "args_before": {
+          "mode": "html"
+        },
+        "args_after": null
+      }
+    },
+    {
+      "turn": 33,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "paragraph",
+            "relation": "exactly",
+            "number": 3
+          },
+          "description": "The response must contain exactly 3 paragraphs."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "frustrated"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "《",
+            "right": "》"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🙃"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "android",
+            "gnss",
+            "api"
+          ],
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must not contain the following keywords: 'android', 'gnss', 'api'.",
+        "instruction_id": "forbidden",
+        "instruction_class": "ForbiddenInstruction",
+        "args_before": null,
+        "args_after": [
+          "android",
+          "gnss",
+          "api"
+        ]
+      }
+    },
+    {
+      "turn": 34,
+      "active_topic": 2436,
+      "topic_query": "Give a response to the question \"Is it ethical to hunt and eat invasive species?\"",
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "happy"
+          },
+          "description": "The response should adopt a 'happy' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should adopt a 'happy' emotional tone throughout.",
+        "instruction_id": "emotion",
+        "instruction_class": "EmotionInstruction",
+        "args_before": null,
+        "args_after": {
+          "emotion": "happy"
+        }
+      }
+    },
+    {
+      "turn": 35,
+      "active_topic": 2436,
+      "topic_query": "Give a response to the question \"Is it ethical to hunt and eat invasive species?\"",
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "neutral"
+          },
+          "description": "The response should adopt a 'neutral' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response should adopt a 'happy' emotional tone throughout.",
+        "new_description": "The response should adopt a 'neutral' emotional tone throughout.",
+        "instruction_id": "emotion",
+        "instruction_class": "EmotionInstruction",
+        "args_before": {
+          "emotion": "happy"
+        },
+        "args_after": {
+          "emotion": "neutral"
+        }
+      }
+    },
+    {
+      "turn": 36,
+      "active_topic": 2436,
+      "topic_query": "Give a response to the question \"Is it ethical to hunt and eat invasive species?\"",
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "neutral"
+          },
+          "description": "The response should adopt a 'neutral' emotional tone throughout."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "exactly",
+            "number": 25
+          },
+          "description": "The response must contain exactly 25 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must contain exactly 25 sentences.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "sentence",
+          "relation": "exactly",
+          "number": 25
+        }
+      }
+    },
+    {
+      "turn": 37,
+      "active_topic": 2436,
+      "topic_query": "Give a response to the question \"Is it ethical to hunt and eat invasive species?\"",
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "neutral"
+          },
+          "description": "The response should adopt a 'neutral' emotional tone throughout."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "sentence",
+            "relation": "more_than",
+            "number": 10
+          },
+          "description": "The response must contain more than 10 sentences."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain exactly 25 sentences.",
+        "new_description": "The response must contain more than 10 sentences.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": {
+          "mode": "sentence",
+          "relation": "exactly",
+          "number": 25
+        },
+        "args_after": {
+          "mode": "sentence",
+          "relation": "more_than",
+          "number": 10
+        }
+      }
+    },
+    {
+      "turn": 38,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "length",
+          "args": {
+            "mode": "word",
+            "relation": "less_than",
+            "number": 1900
+          },
+          "description": "The response must contain less than 1900 words."
+        },
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "frustrated"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "《",
+            "right": "》"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🙃"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "android",
+            "gnss",
+            "api"
+          ],
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain exactly 3 paragraphs.",
+        "new_description": "The response must contain less than 1900 words.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": {
+          "mode": "paragraph",
+          "relation": "exactly",
+          "number": 3
+        },
+        "args_after": {
+          "mode": "word",
+          "relation": "less_than",
+          "number": 1900
+        }
+      }
+    },
+    {
+      "turn": 39,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "frustrated"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "《",
+            "right": "》"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "emoji",
+            "value": "🙃"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "android",
+            "gnss",
+            "api"
+          ],
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "remove",
+        "original_description": null,
+        "new_description": "Regardless of the instructions regarding length requirements of the response, such as word count, paragraph count, character count, sentence count, etc.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": {
+          "mode": "word",
+          "relation": "less_than",
+          "number": 1900
+        },
+        "args_after": null
+      }
+    },
+    {
+      "turn": 40,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "frustrated"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "《",
+            "right": "》"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "W"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "android",
+            "gnss",
+            "api"
+          ],
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "Start the response with the emoji '🙃'.",
+        "new_description": "Start the response with the letter 'W'.",
+        "instruction_id": "startwith",
+        "instruction_class": "StartWithInstruction",
+        "args_before": {
+          "mode": "emoji",
+          "value": "🙃"
+        },
+        "args_after": {
+          "mode": "letter",
+          "value": "W"
+        }
+      }
+    },
+    {
+      "turn": 41,
+      "active_topic": 2787,
+      "topic_query": "What are the steps to get the GNSS timestamp on Android? Explain this to teenagers.",
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "frustrated"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "quotation",
+            "left": "《",
+            "right": "》"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "startwith",
+          "args": {
+            "mode": "letter",
+            "value": "W"
+          },
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        },
+        {
+          "id": "forbidden",
+          "args": [
+            "android",
+            "gnss"
+          ],
+          "description": "The response should adopt a 'frustrated' emotional tone throughout."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must not contain the following keywords: 'android', 'gnss', 'api'.",
+        "new_description": "The response must not contain the following keywords: 'android', 'gnss'.",
+        "instruction_id": "forbidden",
+        "instruction_class": "ForbiddenInstruction",
+        "args_before": [
+          "android",
+          "gnss",
+          "api"
+        ],
+        "args_after": [
+          "android",
+          "gnss"
+        ]
+      }
+    },
+    {
+      "turn": 42,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 10
+          },
+          "description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "collaborative": 1,
+            "web developers": 9,
+            "accomplished": 8
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must include the following keywords: 'collaborative' (exactly once), 'web developers' (exactly 9 times), 'accomplished' (exactly 8 times).",
+        "instruction_id": "existence",
+        "instruction_class": "ExistenceInstruction",
+        "args_before": null,
+        "args_after": {
+          "collaborative": 1,
+          "web developers": 9,
+          "accomplished": 8
+        }
+      }
+    },
+    {
+      "turn": 43,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 10
+          },
+          "description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "collaborative": 1,
+            "web developers": 9,
+            "accomplished": 8
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "keyword",
+            "value": "quality"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "End the response with the keyword 'quality'.",
+        "instruction_id": "endwith",
+        "instruction_class": "EndWithInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "keyword",
+          "value": "quality"
+        }
+      }
+    },
+    {
+      "turn": 44,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "youth"
+          },
+          "description": "The response should be tailored for 'youth' readers."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 10
+          },
+          "description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "collaborative": 1,
+            "web developers": 9,
+            "accomplished": 8,
+            "professionals": 1
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "keyword",
+            "value": "quality"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must include the following keywords: 'collaborative' (exactly once), 'web developers' (exactly 9 times), 'accomplished' (exactly 8 times).",
+        "new_description": "The response must include the following keywords: 'collaborative' (exactly once), 'web developers' (exactly 9 times), 'accomplished' (exactly 8 times), 'professionals' (exactly once).",
+        "instruction_id": "existence",
+        "instruction_class": "ExistenceInstruction",
+        "args_before": {
+          "collaborative": 1,
+          "web developers": 9,
+          "accomplished": 8
+        },
+        "args_after": {
+          "collaborative": 1,
+          "web developers": 9,
+          "accomplished": 8,
+          "professionals": 1
+        }
+      }
+    },
+    {
+      "turn": 45,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 10
+          },
+          "description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "collaborative": 1,
+            "web developers": 9,
+            "accomplished": 8,
+            "professionals": 1
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "keyword",
+            "value": "quality"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response should be tailored for 'youth' readers.",
+        "new_description": "The response should be tailored for 'senior' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": {
+          "reader_age": "youth"
+        },
+        "args_after": {
+          "reader_age": "senior"
+        }
+      }
+    },
+    {
+      "turn": 46,
+      "active_topic": 2380,
+      "topic_query": "Please write a summary of the following advertiser page: \"We insist on having the most talented team of web developers, content writers, graphic designers and online marketers in the industry. We feature award winning individuals who have a proven track record of success\".",
+      "instructions": [
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "countableItems",
+          "args": {
+            "num": 14
+          },
+          "description": "The answer must contain exactly 14 bullet points, which should be separated by bullet points such as: * point or - point."
+        },
+        {
+          "id": "format",
+          "args": {
+            "mode": "markdown"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "existence",
+          "args": {
+            "collaborative": 1,
+            "web developers": 9,
+            "accomplished": 8,
+            "professionals": 1
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "keyword",
+            "value": "quality"
+          },
+          "description": "The response must be valid Markdown without broken fences or obvious syntax errors)."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The answer must contain exactly 10 bullet points, which should be separated by bullet points such as: * point or - point.",
+        "new_description": "The answer must contain exactly 14 bullet points, which should be separated by bullet points such as: * point or - point.",
+        "instruction_id": "countableItems",
+        "instruction_class": "CountableItemsInstruction",
+        "args_before": {
+          "num": 10
+        },
+        "args_after": {
+          "num": 14
+        }
+      }
+    },
+    {
+      "turn": 47,
+      "active_topic": 2436,
+      "topic_query": "Give a response to the question \"Is it ethical to hunt and eat invasive species?\"",
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "neutral"
+          },
+          "description": "The response should adopt a 'neutral' emotional tone throughout."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "paragraph",
+            "relation": "more_than",
+            "number": 6
+          },
+          "description": "The response must contain more than 6 paragraphs."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "modify",
+        "original_description": "The response must contain more than 10 sentences.",
+        "new_description": "The response must contain more than 6 paragraphs.",
+        "instruction_id": "length",
+        "instruction_class": "LengthInstruction",
+        "args_before": {
+          "mode": "sentence",
+          "relation": "more_than",
+          "number": 10
+        },
+        "args_after": {
+          "mode": "paragraph",
+          "relation": "more_than",
+          "number": 6
+        }
+      }
+    },
+    {
+      "turn": 48,
+      "active_topic": 2436,
+      "topic_query": "Give a response to the question \"Is it ethical to hunt and eat invasive species?\"",
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "neutral"
+          },
+          "description": "The response should adopt a 'neutral' emotional tone throughout."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "paragraph",
+            "relation": "more_than",
+            "number": 6
+          },
+          "description": "The response must contain more than 6 paragraphs."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😃"
+          },
+          "description": "The response must contain more than 6 paragraphs."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "End the response with the emoji '😃'.",
+        "instruction_id": "endwith",
+        "instruction_class": "EndWithInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "emoji",
+          "value": "😃"
+        }
+      }
+    },
+    {
+      "turn": 49,
+      "active_topic": 2436,
+      "topic_query": "Give a response to the question \"Is it ethical to hunt and eat invasive species?\"",
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "neutral"
+          },
+          "description": "The response should adopt a 'neutral' emotional tone throughout."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "paragraph",
+            "relation": "more_than",
+            "number": 6
+          },
+          "description": "The response must contain more than 6 paragraphs."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😃"
+          },
+          "description": "The response must contain more than 6 paragraphs."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response should be tailored for 'senior' readers.",
+        "instruction_id": "reader_age",
+        "instruction_class": "ReaderAgeInstruction",
+        "args_before": null,
+        "args_after": {
+          "reader_age": "senior"
+        }
+      }
+    },
+    {
+      "turn": 50,
+      "active_topic": 2436,
+      "topic_query": "Give a response to the question \"Is it ethical to hunt and eat invasive species?\"",
+      "instructions": [
+        {
+          "id": "emotion",
+          "args": {
+            "emotion": "neutral"
+          },
+          "description": "The response should adopt a 'neutral' emotional tone throughout."
+        },
+        {
+          "id": "length",
+          "args": {
+            "mode": "paragraph",
+            "relation": "more_than",
+            "number": 6
+          },
+          "description": "The response must contain more than 6 paragraphs."
+        },
+        {
+          "id": "endwith",
+          "args": {
+            "mode": "emoji",
+            "value": "😃"
+          },
+          "description": "The response must contain more than 6 paragraphs."
+        },
+        {
+          "id": "reader_age",
+          "args": {
+            "reader_age": "senior"
+          },
+          "description": "The response should be tailored for 'senior' readers."
+        },
+        {
+          "id": "punctuation",
+          "args": {
+            "mode": "must_not_include",
+            "value": "."
+          },
+          "description": "The response must not contain the punctuation: '.'."
+        }
+      ],
+      "cur_operation": {
+        "operation_type": "add",
+        "original_description": null,
+        "new_description": "The response must not contain the punctuation: '.'.",
+        "instruction_id": "punctuation",
+        "instruction_class": "PunctuationInstruction",
+        "args_before": null,
+        "args_after": {
+          "mode": "must_not_include",
+          "value": "."
+        }
+      }
+    }
+  ],
+  "rng_state": [
+    3,
+    [
+      696739782,
+      3054901299,
+      798182802,
+      4028166333,
+      1475304520,
+      3443096357,
+      1214626356,
+      3209228563,
+      3515107510,
+      2312339516,
+      299791506,
+      2438427395,
+      2150941940,
+      3169010755,
+      3669601461,
+      3109293850,
+      2235981853,
+      2923107225,
+      412565561,
+      3747260923,
+      3874190107,
+      685737827,
+      442172241,
+      2602406664,
+      1504480121,
+      1636521998,
+      401704178,
+      2135257328,
+      2370490023,
+      4206555243,
+      1641512346,
+      1854880183,
+      3309288743,
+      622452224,
+      4269098278,
+      1766464252,
+      1556874502,
+      369827946,
+      1433632313,
+      2440263755,
+      4044302715,
+      2931888749,
+      4224784569,
+      262314441,
+      2454763231,
+      2145414023,
+      1647836985,
+      3957280522,
+      1088566188,
+      3828997810,
+      652482061,
+      2237675604,
+      2641204064,
+      27955843,
+      2662650762,
+      3952544425,
+      3143015762,
+      2871567998,
+      1522627049,
+      2060684594,
+      3502262217,
+      920027293,
+      47370940,
+      4199553962,
+      201221094,
+      1486146162,
+      476757395,
+      318203416,
+      3098022893,
+      3763177174,
+      1205281251,
+      1454372314,
+      2930352720,
+      2537894882,
+      1145218872,
+      911139913,
+      1211373066,
+      2497688918,
+      2115977484,
+      2096264756,
+      532627924,
+      3615134239,
+      3578232329,
+      4056649101,
+      2916114742,
+      1103034377,
+      4212250880,
+      3211400311,
+      1013246375,
+      3615408985,
+      269656302,
+      3013719215,
+      1922855605,
+      1734212371,
+      3209047216,
+      3421690942,
+      2732905878,
+      84222738,
+      1978502783,
+      3340972513,
+      3620415952,
+      734674509,
+      3760649384,
+      576951239,
+      2629950803,
+      568926971,
+      1114977261,
+      2157611562,
+      3839952737,
+      1416570150,
+      4199610954,
+      997908610,
+      3385229574,
+      1319838178,
+      1180574601,
+      1227273830,
+      3026427413,
+      913285504,
+      633045155,
+      4159583320,
+      3157564674,
+      880695907,
+      1794318811,
+      1870624662,
+      2657091548,
+      1959181805,
+      3203671223,
+      261944051,
+      2943460513,
+      1326369998,
+      2838234247,
+      1491280206,
+      1136588078,
+      1080906598,
+      3294732952,
+      1718766327,
+      2358108040,
+      1835424060,
+      3551862962,
+      802563769,
+      3656389649,
+      3657198461,
+      3618965384,
+      565719540,
+      202027430,
+      633605192,
+      21405800,
+      2268391686,
+      2623564129,
+      2005338618,
+      929622514,
+      834742368,
+      2241837351,
+      3078015120,
+      571066371,
+      1915628959,
+      1562351775,
+      3902067560,
+      1697205622,
+      2745058902,
+      1396299212,
+      214849878,
+      431658814,
+      4098499999,
+      3924468549,
+      4187368204,
+      1215477557,
+      1285472053,
+      4126575636,
+      3312625816,
+      1195312694,
+      3145837769,
+      720244775,
+      3182124312,
+      1793645170,
+      2379557179,
+      1848678062,
+      935284512,
+      4042181252,
+      2665727273,
+      3658482199,
+      479281082,
+      1964975641,
+      1630596637,
+      3139659421,
+      2084210753,
+      3427579919,
+      2594132021,
+      228874348,
+      1709860691,
+      1310317395,
+      2214959076,
+      499178926,
+      3519850861,
+      2279688679,
+      3431152278,
+      1827592428,
+      3159440606,
+      266580363,
+      3383948786,
+      2958477908,
+      3635598326,
+      403231787,
+      3851650192,
+      3858910747,
+      166720075,
+      2468403466,
+      2009757060,
+      3518299507,
+      1213342238,
+      2856581525,
+      2452423853,
+      2779514103,
+      4100618771,
+      446703688,
+      454859775,
+      3179051567,
+      3834369614,
+      1056949486,
+      2166590112,
+      2326202903,
+      2117838483,
+      2212446476,
+      4274632310,
+      1032081420,
+      3936823650,
+      3429000343,
+      649986080,
+      2799776049,
+      2761363197,
+      197035130,
+      2880040588,
+      1083156259,
+      199894453,
+      1869856610,
+      3298381365,
+      1582145394,
+      2886879375,
+      4060930802,
+      2136533631,
+      2482277980,
+      3106556598,
+      1777415782,
+      1786855530,
+      3050378671,
+      3431857518,
+      2510550266,
+      1957445217,
+      1134777824,
+      524482904,
+      3350495347,
+      3668713761,
+      1351096083,
+      2398934467,
+      3894767131,
+      350444256,
+      1957730678,
+      2688460598,
+      3505171330,
+      2140121843,
+      1519918902,
+      3065359756,
+      123398528,
+      994170258,
+      2941559744,
+      4157662576,
+      1042356611,
+      2981635034,
+      2188716790,
+      634841288,
+      2450243618,
+      4275372436,
+      1837351466,
+      1934838634,
+      3435215795,
+      661481966,
+      21668871,
+      2806945763,
+      217708077,
+      668692673,
+      3513775692,
+      2937191787,
+      115020394,
+      3943249014,
+      3742996863,
+      3850761984,
+      4031821618,
+      3823776974,
+      1930687117,
+      3973473220,
+      3761380423,
+      816537339,
+      71295612,
+      2710278625,
+      1984579877,
+      332404261,
+      300108926,
+      2070292894,
+      2016340355,
+      375826244,
+      558253222,
+      1890716964,
+      1582777824,
+      1460098409,
+      702666722,
+      3808327245,
+      510812654,
+      3934033901,
+      3300371216,
+      2825893852,
+      815662119,
+      2328588234,
+      1951247661,
+      1960980818,
+      3100543944,
+      1541867661,
+      2513422062,
+      3804969764,
+      550437957,
+      3616232321,
+      1192593741,
+      934357401,
+      1845214203,
+      1797274108,
+      3745816543,
+      3296699399,
+      3130146781,
+      2430067842,
+      1581126469,
+      2152923808,
+      718905538,
+      1497801011,
+      2903392802,
+      4039436192,
+      131913898,
+      711078584,
+      2806469281,
+      813577352,
+      2965435227,
+      130003286,
+      1349528434,
+      1300602588,
+      847112042,
+      3192728198,
+      3190448484,
+      1422694554,
+      2152911363,
+      671938793,
+      2510522940,
+      3931908086,
+      178693895,
+      510120377,
+      1411556471,
+      466839712,
+      1107568224,
+      2963071713,
+      3354591645,
+      1714911803,
+      3831538519,
+      1083428436,
+      3860957857,
+      482351638,
+      2338024333,
+      370964226,
+      763755764,
+      530069355,
+      1244728525,
+      3083760226,
+      587883430,
+      2515617217,
+      2391264675,
+      2616173511,
+      1499332624,
+      3318986391,
+      3708941496,
+      1207873317,
+      1638137341,
+      4236355378,
+      336050954,
+      2509567462,
+      2944327006,
+      1512254027,
+      3883142518,
+      2168306163,
+      3235133578,
+      2739976911,
+      575415269,
+      1111376365,
+      3270560385,
+      2271878446,
+      1244444869,
+      794385533,
+      1699800861,
+      3677040724,
+      3787996449,
+      3121993941,
+      4189227132,
+      4167263066,
+      2217371059,
+      2112041026,
+      2326628527,
+      2514664100,
+      166395715,
+      791902047,
+      2674128432,
+      3993006197,
+      524007115,
+      3443041255,
+      2158650503,
+      2583992703,
+      323266346,
+      2900800058,
+      3093270068,
+      2584077529,
+      2259510121,
+      3587442898,
+      3457621806,
+      593424805,
+      4241157620,
+      2070609116,
+      970934135,
+      251962787,
+      1142215657,
+      4081138451,
+      3851363244,
+      3980320635,
+      2844989965,
+      1772655335,
+      716429126,
+      1500598944,
+      2741222097,
+      380898311,
+      2688263343,
+      3955142561,
+      873704476,
+      1470466260,
+      1716600908,
+      1201748208,
+      4116287982,
+      3175819182,
+      1545267696,
+      4038630771,
+      807398652,
+      955798905,
+      1554241307,
+      3571227656,
+      141814955,
+      1288720179,
+      1186685410,
+      3981895797,
+      1258760769,
+      4149642031,
+      3803061958,
+      497927957,
+      3275788456,
+      2022876061,
+      6441861,
+      3556977918,
+      3486275420,
+      1366466299,
+      1669615254,
+      2353145659,
+      3750418084,
+      4048354145,
+      3063594172,
+      487522058,
+      2336486576,
+      1136019765,
+      1607478725,
+      346891140,
+      410401383,
+      2728681463,
+      1755986627,
+      1753194035,
+      2280524230,
+      3339208910,
+      623806160,
+      934117122,
+      2633072455,
+      497066257,
+      109887887,
+      1185198347,
+      3368494818,
+      4171288943,
+      3643758391,
+      1692453401,
+      399850032,
+      3694715723,
+      570971963,
+      1976244572,
+      1293505742,
+      4058777853,
+      3528890161,
+      2457340976,
+      2157504963,
+      3110294200,
+      3119610537,
+      2557237461,
+      3154297436,
+      3709608916,
+      3913030199,
+      1321712855,
+      573142189,
+      3474464855,
+      2830113309,
+      2076322800,
+      1682033103,
+      4082882457,
+      460094549,
+      2094886995,
+      153667360,
+      3990759122,
+      476145368,
+      1324088727,
+      1609613194,
+      3198680731,
+      3965337954,
+      161322533,
+      3926596220,
+      2414819061,
+      855363448,
+      1491412165,
+      3251104655,
+      3809578840,
+      802599289,
+      1510182363,
+      1811284854,
+      167490029,
+      3049673182,
+      832481195,
+      470477731,
+      1671133600,
+      9900063,
+      677968776,
+      3093484484,
+      467613095,
+      2129507013,
+      4274430571,
+      939712607,
+      2963791278,
+      3438159727,
+      19982682,
+      3538113493,
+      3232371725,
+      2934329507,
+      1231740406,
+      1673522563,
+      3860434160,
+      3346091051,
+      2602540635,
+      4271848147,
+      1855949793,
+      3921419483,
+      1581794800,
+      1155183875,
+      1941419724,
+      836670094,
+      2086206331,
+      1649265866,
+      871740703,
+      3889619321,
+      3588245977,
+      1598891587,
+      1286778128,
+      1970949777,
+      1895760436,
+      1671742670,
+      2069698873,
+      485095422,
+      1907390854,
+      1041924386,
+      1879554033,
+      932002840,
+      3029224089,
+      2932284728,
+      567208503,
+      1187040083,
+      764622501,
+      3698454980,
+      2893974165,
+      3330045404,
+      4113950918,
+      53593208,
+      1947611812,
+      444088981,
+      403141054,
+      3699723819,
+      3235596943,
+      3514170338,
+      2375963260,
+      1594710032,
+      2927821071,
+      862194484,
+      3906707992,
+      1681650216,
+      3627481817,
+      1475480649,
+      3438175047,
+      3510201208,
+      747430157,
+      2012366084,
+      3402024899,
+      1446166194,
+      3838889493,
+      320205168,
+      1349442069,
+      3802305313,
+      2450885209,
+      3607570105,
+      1051064985,
+      4114618064,
+      3284880260,
+      1846271684,
+      2726024904,
+      3262027234,
+      3752302021,
+      4226141425,
+      365685265,
+      2756426355,
+      1005825917,
+      3326238242,
+      2835789053,
+      720697528,
+      2909879199,
+      352
+    ],
+    null
+  ]
+}
