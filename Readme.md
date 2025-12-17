@@ -5,14 +5,14 @@
 
 > Note: This repository is still under construction. 
 
-<!-- <div align= "center">
+<div align= "center">
 <p>
-<a href="https://arxiv.org/abs/2410.01733v2">📖 Arxiv</a> |
-<a href="https://huggingface.co/datasets/ASCIIEval/ASCIIEval">🤗 ASCIIEval Dataset</a> |
+<a href="https://arxiv.org/abs/2511.03508v2">📖 Arxiv</a> |
+<!-- <a href="https://huggingface.co/datasets/ASCIIEval/ASCIIEval">🤗 ASCIIEval Dataset</a> |
 <a href="https://huggingface.co/datasets/ASCIIEval/ASCIITune">🤗 ASCIITune Dataset</a>
- <a href="https://asciieval.github.io/">🌐 Website</a>
+ <a href="https://asciieval.github.io/">🌐 Website</a> -->
 </p>
-</div> -->
+</div>
 
 # Introduction
 
@@ -136,9 +136,9 @@ Please stay tuned for the upcoming release of the test data and evaluation resul
       title={One Battle After Another: Probing LLMs' Limits on Multi-Turn Instruction Following with a Benchmark Evolving Framework}, 
       author={Qi Jia and Kaiwei Zhang and Xiujie Song and Ye Shen and Xiangyang Zhu and Guangtao Zhai},
       year={2025},
-      eprint={2511.03508},
+      eprint={2511.03508v2},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2511.03508}, 
+      url={https://arxiv.org/abs/2511.03508v2}, 
 }
 ```
